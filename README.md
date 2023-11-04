@@ -8,9 +8,7 @@
 - [Description](#description)
 - [Software Devolped](#software-devolped)
 - [How To Use](#how-to-use)
-- [References](#references)
 - [Credits](#credits)
-- [Author Info](#author-info)
 
 
 
