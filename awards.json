@@ -1,7 +1,7 @@
 {
     "intents": [
         {
-            "tag": "Indigenous band funding",
+            "tag": "indigenous_band_funding",
             "patterns": [
                 "Does band funding affect the amount of OSAP I will receive?",
                 "If I receive financial assistance from my Indigenous band, will it affect my OSAP application?",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "tag": "deadline for scholarships",
+            "tag": "deadline_for_scholarships",
             "patterns": [
                 "When is the deadline to apply for scholarships and bursaries?",
                 "What is the last date to submit applications for scholarships?",
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "tag": "scholarships via AwardSpring without OSAP",
+            "tag": "scholarships_via_awardSpring_without_osap",
             "patterns": [
                 "How do I apply for scholarships via AwardSpring if I don’t have OSAP?",
                 "Can I still access scholarships via AwardSpring without having OSAP?",
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "tag": "indigenous students emergency financial support",
+            "tag": "indigenous_students_emergency_financial_support",
             "patterns": [
                 "I am in need of emergency financial support. What do I do?",
                 "How can I get emergency financial assistance as an Indigenous student?",
@@ -68,7 +68,7 @@
             ]
         },
         {
-            "tag": "aid and awards for black students",
+            "tag": "aid_and_awards_for_black_students",
             "patterns": [
                 "Is there any aid and/or awards for black students?",
                 "Are there specific financial aid opportunities for black students?",
@@ -83,7 +83,7 @@
             ]
         },
         {
-            "tag": "Automatically considered for entrance awards",
+            "tag": "automatically_considered_for_entrance_awards",
             "patterns": [
                 "Am I automatically considered for all entrance awards?",
                 "Do I need to apply separately for entrance awards?",
@@ -97,7 +97,7 @@
             ]
         },
         {
-            "tag": "Eligible for more than one entrance award",
+            "tag": "eligible_for_more_than_one_entrance_award",
             "patterns": [
                 "Am I eligible for more than one automatic entrance award?",
                 "Can I qualify for multiple automatic entrance awards?",
@@ -113,7 +113,7 @@
             ]
         },
         {
-            "tag": "Help with AwardSpring",
+            "tag": "help_with_awardSpring",
             "patterns": [
                 "Can I get help with AwardSpring?",
                 "Is there assistance available for navigating AwardSpring?",
@@ -128,7 +128,7 @@
             ]
         },
         {
-            "tag": "Offer Letter award",
+            "tag": "offer_letter_award",
             "patterns": [
                 "When will I know if there are any changes to my award offer?",
                 "Is there a specific timeline for updates to my award offer?",
@@ -143,7 +143,7 @@
             ]
         },
         {
-            "tag": "Didnt receive scholarship offer",
+            "tag": "didnt_receive_scholarship_offer",
             "patterns": [
                 "I didn’t receive a scholarship offer, what are my options?",
                 "What should I do if I didn’t get a scholarship offer?",
