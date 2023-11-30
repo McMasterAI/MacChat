@@ -1,0 +1,226 @@
+{
+    "intents": [
+        {
+            "tag": "convocation_info",
+            "patterns": [
+                "Tell me about convocation at our university.",
+                "What is convocation all about?",
+                "Give me information on university convocation."
+            ],
+            "responses": [
+                "Convocation is a ceremonial event where graduates receive their degrees. It's a celebration of academic achievements and marks the completion of your university journey. Check the university website https://registrar.mcmaster.ca/grad/details/ for specific details about our convocation ceremonies."
+            ]
+        },
+        {
+            "tag": "convocation_schedule",
+            "patterns": [
+                "When is the next convocation?",
+                "Can you provide the schedule for convocation?",
+                "Tell me the dates for the upcoming convocation ceremonies."
+            ],
+            "responses": [
+                "The schedule for convocation can vary each year. Please visit the official university website https://registrar.mcmaster.ca/grad/details/ or contact the registrar's office for the most up-to-date information on convocation dates and times."
+            ]
+        },
+        {
+            "tag": "convocation_registration",
+            "patterns": [
+                "How do I register for convocation?",
+                "What is the process for convocation registration?",
+                "Tell me about convocation sign-up."
+            ],
+            "responses": [
+                "To register for convocation, log in to your student portal and follow the instructions for convocation registration. Make sure to complete the process within the specified deadline to secure your spot in the ceremony."
+            ]
+        },
+        {
+            "tag": "convocation_guests",
+            "patterns": [
+                "Can I bring guests to the convocation ceremony?",
+                "How many guests can I invite to convocation?",
+                "Tell me about bringing family to convocation."
+            ],
+            "responses": [
+                "Yes, you can usually bring guests to the convocation ceremony. Check the convocation guidelines on the university website https://registrar.mcmaster.ca/grad/details/ for information on the number of guests allowed and any other relevant details."
+            ]
+        },
+        {
+            "tag": "convocation_attire",
+            "patterns": [
+                "What should I wear for convocation?",
+                "Is there a dress code for convocation?",
+                "Tell me about the attire for the convocation ceremony."
+            ],
+            "responses": [
+                "Convocation typically has a formal dress code. Graduates often wear academic gowns and caps. Check the convocation instructions provided by the university for specific details on attire and where to obtain your gown."
+            ]
+        },
+        {
+            "tag": "convocation_photos",
+            "patterns": [
+                "Can I take photos during convocation?",
+                "Are professional photographers available at convocation?",
+                "Tell me about capturing memories at convocation."
+            ],
+            "responses": [
+                "Yes, convocation is a memorable event, and you are usually allowed to take photos. Some universities also have professional photographers on-site. Check the convocation guidelines for information on photography and capturing special moments."
+            ]
+        },
+        {
+            "tag": "convocation_certificate",
+            "patterns": [
+                "How do I receive my degree certificate at convocation?",
+                "Tell me about collecting my diploma at convocation.",
+                "What is the process for receiving my certificate during convocation?"
+            ],
+            "responses": [
+                "You will receive your degree certificate during the convocation ceremony. Listen for instructions during the event, and there is usually a designated area where you can pick up your diploma after the ceremony concludes."
+            ]
+        },
+        {
+            "tag": "convocation_speech",
+            "patterns": [
+                "Who gives the convocation speech?",
+                "Tell me about the speakers at convocation.",
+                "Is there a keynote speaker for convocation?"
+            ],
+            "responses": [
+                "Convocation speeches may include remarks from university officials, faculty members, and sometimes a keynote speaker. Check the convocation program for details on who will be speaking during the ceremony."
+            ]
+        },
+        {
+            "tag": "convocation_live_stream",
+            "patterns": [
+                "Can I watch the convocation ceremony online?",
+                "Is there a live stream for convocation?",
+                "Tell me about virtual attendance for convocation."
+            ],
+            "responses": [
+                "We offer a live stream of the convocation ceremony for those unable to attend in person. Check the university website https://registrar.mcmaster.ca/grad/details/ or contact the IT department for information on virtual attendance options."
+            ]
+        },
+        {
+            "tag": "convocation_afterparty",
+            "patterns": [
+                "Is there an afterparty or celebration after convocation?",
+                "Tell me about post-convocation events.",
+                "What happens after the convocation ceremony?"
+            ],
+            "responses": [
+                "We host post-convocation events or celebrations. Check with the student affairs office or convocation organizers for information on any gatherings or festivities planned after the ceremony."
+            ]
+        },
+        {
+            "tag": "convocation_location",
+            "patterns": [
+                "Where does the convocation ceremony take place?",
+                "Tell me about the venue for convocation.",
+                "What is the location of the convocation ceremony?"
+            ],
+            "responses": [
+                "Convocation ceremonies are usually held at a designated venue on the university campus. Check the convocation announcements or website https://registrar.mcmaster.ca/grad/details/ for information on the specific location of the upcoming ceremony."
+            ]
+        },
+        {
+            "tag": "convocation_invitations",
+            "patterns": [
+                "How are invitations sent for convocation?",
+                "Tell me about receiving invitations to convocation.",
+                "Is there a formal invitation process for convocation?"
+            ],
+            "responses": [
+                "Invitations for convocation are often sent through official university channels, such as email or the student portal. Make sure your contact information is up to date to receive timely notifications about convocation details and invitations."
+            ]
+        },
+        {
+            "tag": "convocation_accommodations",
+            "patterns": [
+                "Do you provide accommodations for guests during convocation?",
+                "Tell me about lodging options for convocation guests.",
+                "Is there on-campus housing for convocation guests?"
+            ],
+            "responses": [
+                "While universities may not directly provide accommodations, they often have information on nearby hotels or lodging options for convocation guests. Check the convocation website or contact the student services office for recommendations."
+            ]
+        },
+        {
+            "tag": "convocation_rehearsal",
+            "patterns": [
+                "Is there a rehearsal for the convocation ceremony?",
+                "Tell me about the convocation practice session.",
+                "Do graduates need to attend a rehearsal for convocation?"
+            ],
+            "responses": [
+                "Some universities conduct a rehearsal or practice session for convocation. If there is a rehearsal, it is advisable for graduates to attend to familiarize themselves with the ceremony proceedings. Check the convocation schedule for details."
+            ]
+        },
+        {
+            "tag": "convocation_awards",
+            "patterns": [
+                "Are there awards presented during convocation?",
+                "Tell me about academic awards at convocation.",
+                "Do graduates receive honors during the convocation ceremony?"
+            ],
+            "responses": [
+                "Convocation ceremonies may include the presentation of academic awards or honors to outstanding graduates. Check with the academic affairs office or the convocation organizers for information on awards and recognitions."
+            ]
+        },
+        {
+            "tag": "convocation_gown_return",
+            "patterns": [
+                "How and when do I return my convocation gown?",
+                "Tell me about the gown return process after convocation.",
+                "Is there a deadline for returning the convocation attire?"
+            ],
+            "responses": [
+                "After the convocation ceremony, there is usually a designated area for gown return. Check the convocation instructions or contact the graduation services office for information on the gown return process and any associated deadlines."
+            ]
+        },
+        {
+            "tag": "convocation_ceremony_duration",
+            "patterns": [
+                "How long does the convocation ceremony typically last?",
+                "Tell me about the duration of the convocation event.",
+                "Is there an estimated time for the convocation ceremony?"
+            ],
+            "responses": [
+                "The duration of convocation ceremonies can vary. On average, ceremonies may last a few hours. Check the convocation schedule or inquire with the convocation organizers for an estimated duration of the event."
+            ]
+        },
+        {
+            "tag": "convocation_diploma_cover",
+            "patterns": [
+                "Do we receive a diploma cover at convocation?",
+                "Tell me about the diploma presentation at convocation.",
+                "Is there a special cover for the degree certificate during convocation?"
+            ],
+            "responses": [
+                "Yes, during the convocation ceremony, graduates are often presented with a diploma cover. The actual degree certificate is usually distributed later or may be collected after the ceremony. Check the convocation guidelines https://registrar.mcmaster.ca/grad/details/ for details on the diploma presentation."
+            ]
+        },
+        {
+            "tag": "convocation_alumni_network",
+            "patterns": [
+                "How can I stay connected with the university after convocation?",
+                "Tell me about the alumni network.",
+                "Is there an alumni association for convocation graduates?"
+            ],
+            "responses": [
+                "Joining the university's alumni network is a great way to stay connected after convocation. Visit the alumni affairs office or check the university website for information on joining the alumni association and participating in post-graduation events."
+            ]
+        },
+        {
+            "tag": "convocation_dress_code",
+            "patterns": [
+                "Is there a specific dress code for convocation guests?",
+                "Tell me about the attire for family and friends attending convocation.",
+                "Do guests need to follow a dress code for the convocation ceremony?"
+            ],
+            "responses": [
+                "While there may not be a strict dress code for convocation guests, it's advisable for them to dress in formal or business casual attire. Check the convocation guidelines for any specific recommendations for guests attending the ceremony."
+            ]
+        }
+
+    ]
+}
+
