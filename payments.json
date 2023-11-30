@@ -8,7 +8,7 @@
                 "What forms of payment can I use for university transactions?"
             ],
             "responses": [
-                "The university accepts various payment methods, including credit/debit cards, bank transfers, and sometimes electronic wallets. Check the university's financial services office or website for a detailed list of accepted payment options."
+                "The university accepts various payment methods, including credit/debit cards, bank transfers, and sometimes electronic wallets. Check the university's financial services office or https://registrar.mcmaster.ca/payment-methods/ for a detailed list of accepted payment options."
             ]
         },
         {
@@ -30,7 +30,7 @@
                 "What is the schedule for tuition payment deadlines?"
             ],
             "responses": [
-                "Payment deadlines for tuition are typically specified in the academic calendar. It's crucial to adhere to these deadlines to avoid late fees or registration holds. Check the university calendar or financial services office for the specific dates."
+                "Payment deadlines for tuition are typically specified in the academic calendar. It's crucial to adhere to these deadlines to avoid late fees or registration holds. Check the university calendar or financial services office for the specific dates or check out the university website https://registrar.mcmaster.ca/payment-methods/"
             ]
         },
         {
@@ -41,7 +41,7 @@
                 "What happens if I make a late payment for tuition?"
             ],
             "responses": [
-                "Late tuition payments may result in penalties or late fees. It's important to make payments on time to avoid any negative consequences for your enrollment or academic standing. Refer to the university's financial policies for details on late payment penalties."
+                "Late tuition payments may result in penalties or late fees. It's important to make payments on time to avoid any negative consequences for your enrollment or academic standing. Refer to the university's financial policies for details or check out the website https://registrar.mcmaster.ca/payment-methods/on late payment penalties."
             ]
         },
         {
@@ -96,7 +96,7 @@
                 "Are there resources to help with tuition payment?"
             ],
             "responses": [
-                "If you're facing financial challenges, consider reaching out to the financial aid office. They can provide information on available assistance programs, payment plans, or potential solutions to help you manage your tuition payments."
+                "If you're facing financial challenges, consider reaching out to the financial aid office at https://studentaffairs.mcmaster.ca/parents/financial-matters/#:~:text=Encourage%20your%20student%20to%20apply,financial%20plan%20with%20your%20student. They can provide information on available assistance programs, payment plans, or potential solutions to help you manage your tuition payments."
             ]
         },
         {
@@ -107,7 +107,7 @@
                 "Is there a way to download a receipt for my tuition payment?"
             ],
             "responses": [
-                "You can usually download or request a receipt for your payment through your student portal or by contacting the financial services office. Check the payment confirmation details or the university's website for instructions on obtaining payment receipts."
+                "You can usually download or request a receipt for your payment through your student portal or by contacting the financial services office. Check the payment confirmation details or the university's website https://studentaffairs.mcmaster.ca/parents/financial-matters/#:~:text=Encourage%20your%20student%20to%20apply,financial%20plan%20with%20your%20student. for instructions on obtaining payment receipts."
             ]
         },
         {
@@ -129,7 +129,7 @@
                 "What are the methods of paying tuition for international students?"
             ],
             "responses": [
-                "International students can typically make tuition payments through wire transfers, international credit/debit cards, or other specified methods. Check with the international student services office or financial services for details on payment options available to international students."
+                "International students can typically make tuition payments through wire transfers, international credit/debit cards, or other specified methods. Check with the international student services office https://registrar.mcmaster.ca/payment-methods/#tab-10 or financial services for details on payment options available to international students."
             ]
         },
         {
