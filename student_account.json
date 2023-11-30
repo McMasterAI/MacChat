@@ -1,0 +1,117 @@
+{
+    "intents":[
+        {
+            "tag": "payments",
+            "patterns": [
+                "How long do payments take to show up on Mosaic?",
+                "How come my payment isn't showing up on Mosaic?",
+                "I paid my fees but it isn't reflected on Mosaic",
+                "Why is the transaction taking so long?"
+            ],
+            "responses":[
+                "Payments made through online banking take 2-3 days to be applied to your account. To confirm the funds have reached your account please access the account summary through your Mosaic Student Centre."
+            ]
+        },
+        {
+            "tag":"late_fees",
+            "patterns":[
+                "How late does a payment need to be in order to get charged late fees?",
+                "What are the late fees for not making a payment by the due date?",
+                "When will I receive my late fee if I don't make a payment before the deadline?"
+            ],
+            "responses":[
+                "If you have not paid by the deadline, late fees are applied to your account on the last day of the month and interest charges are applied on the second-last business day of the month."
+            ]
+        },
+        {
+            "tag":"account_summary",
+            "patterns":[
+                "Why did my account summary change?",
+                "How come my accounts summary has changed since?",
+                "Can you explain why my account balance and transactions have differed from what was shown on Mosaic?",
+                "Can you tell me what my current balance and transactions look like?"
+            ],
+            "responses":[
+                "Your account summary will change throughout the year for various reasons. Some reasons are: \n-Have you changed your course load?\n- Has an award/ scholarship been added?\n- Has your OSAP entitlement changed"
+            ]
+        },
+        {
+            "tag": "overpaid",
+            "patterns": [
+                "What happens if I overpaid?",
+                "I accidentally overpaid 1000 dollars regarding my tuition, what now?"
+            ],
+            "responses":[
+                "If your account has been overpaid, wait until the funds have been received by McMaster and a credit appears on your student account.\n\t-Email refunds@mcmaster.ca for the credit amount to be refunded to you via e-transfer."
+            ]
+        },
+        {
+            "tag": "e-transfer",
+            "patterns":[
+                "I received an email in my McMaster email that I have an e-transfer from McMaster University. How do I know if this is legitimate?",
+                "Is there an e-transfer option available?",
+                "Do you have any plans to implement electronic transfer of funds?",
+                "Are there any other options besides paper checks or cash?"
+            ],
+            "responses":[
+                "McMaster is now sending bursary funding and refunds directly to students via e-transfer. Please refer to your student account for details of the amount of oney that should have been sent to you. Your refund amount will appear on your student account as AP Refund"
+            ]
+        },
+        {
+            "tag": "payment_receipt",
+            "patterns":[
+                "How can I obtain a payment receipt for my tuition?",
+                "Where do I find a copy of my most recent payment receipt?",
+                "Could someone please provide me with a proof that I paid my tuition"
+            ],
+            "responses":[
+                "To access a detailed summary of your charges and payments for the year lon on to your Mosaic Student Centre and click Account Summary. Select the appropriate academic year and then click View Detail/Print"
+            ]
+        },
+        {
+            "tag": "payment_proof",
+            "patterns":[
+                "How can I receive proof of payment from McMaster?",
+                "When will the university send out proof of payment?",
+                "Will I be able to get a confirmation email once the payment is processed?"
+            ],
+            "responses":[
+                "Please access the link where you can find steps on how to retrieve an official invoice letter: https://registrar.mcmaster.ca/services/enrolment-verification/"
+            ]
+        },
+        {
+            "tag": "balance_correct",
+            "patterns":[
+                "How can I make sure my account balance is correct?",
+                "How do I know if I'm being charged the right amount?",
+                "Can I verify my current account balance on your website?"
+            ],
+            "responses":[
+                "In order to ensure that your account is correct, please refer to all the available screens on mosaic: https://registrar.mcmaster.ca/events/how-to-read-your-account-summary/"
+            ]
+        },
+        {
+            "tag": "tuition",
+            "patterns":[
+                "Why can I only pay a certain amount of my tuition at one time?",
+                "I tried to pay my balance earlier today and it said I was only able to pay $1000 today, why?",
+                "What are the maximum and minimum amounts I can pay in one transaction?",
+                "I want to pay more than what is listed as the maximum. Can I still pay online?"
+            ],
+            "responses":[
+                "Some banks have a daily transaction limit which prevents bill payments that exceed a certain amount. You will need to either speak with your bank about increasing your daily limit, or you will need to make partial payments over a few days"
+            ]
+        },
+        {
+            "tag": "purpose",
+            "patterns":[
+                "What is the purpose of a payment plan?",
+                "How do I enroll in a payment plan?",
+                "Where do I sign up for a payment plan?"
+            ],
+            "responses":[
+                "Payment plans have been put into place to help our students reach their academic goals while making manageable payments to clear their balances. More information on how to sign up for a payment plan can be found on our website."
+            ]
+        }
+    ]
+}

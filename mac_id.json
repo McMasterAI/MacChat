@@ -1,0 +1,125 @@
+{
+    "intents":[
+        {
+            "tag": "what_is_macid",
+            "patterns":[
+                "What is a MacID",
+                "Could you explain the concept of a MacID?",
+                "What does the term MacID refer to?",
+                "Can you provide a definition or description of a MacID?",
+                "What exactly is meant by the term MacID?"
+            ],
+            "responses":[
+                "A MacID is a unique, alphanumeric identifier provided to all McMaster community members to access university systems, resources and applications. Additional permissions may be required for some services. Your MacID is not your employee or student number."
+            ]
+        },
+        {
+            "tag":"id_who",
+            "patterns":[
+                "Who can use a Mac ID?",
+                "Which users are eligible for obtaining a Mac ID?",
+                "To whom can I apply for a Mac ID?",
+                "For which individuals can I request a Mac ID?"
+            ],
+            "responses":[
+                "Students, alumni, applicants, faculty members, staff, POIs and retirees."
+            ]
+        },
+        {
+            "tag": "id_cost",
+            "patterns":[
+                "How much does a Mac ID cost?",
+                "Are there any fees associated with acquiring a Mac ID?",
+                "Do I need to pay anything in order to get a Mac ID?",
+                "How much do I have to spend on a Mac ID?"
+            ],
+            "responses":[
+                "This service is free."
+            ]
+        },
+        {
+            "tag": "id_how",
+            "patterns":[
+                "How to get a Mac ID?",
+                "Where can I find information about how to acquire a Mac ID?",
+                "I want to know more about getting a Mac ID. Where should I look?",
+                "Please tell me where I can learn about applying for a Mac ID"
+            ],
+            "responses":[
+                "Users automatically receive a MacID when their relationship to the university has been identified."
+            ]
+        },
+        {
+            "tag":"macid_service",
+            "patterns":[
+                "What is the availability of services?",
+                "When will the Mac ID service be available?",
+                "At what time will the Mac ID service become operational?",
+                "When can I expect the Mac ID service to go live?"
+            ],
+            "responses":[
+                "Service runs 24/7"
+            ]
+        },
+        {
+            "tag": "macid_activation",
+            "patterns":[
+                "How can I activate my Mac ID?",
+                "Can you guide me through the process of activating my Mac ID?",
+                "In what way may I proceed with the activation of my Mac ID?",
+                "Could someone please help me with the procedure for activating my Mac ID?"
+            ],
+            "responses":[
+                "Your MacID can be activated at https://maciam.mcmaster.ca. Click on \"Need help\" with your MacID (above the LOGIN button). Select the option \"I Want to Activate My MacID\" and follow the prompts"
+            ]
+        },
+        {
+            "tag": "macid_authentication",
+            "patterns":[
+                "What services can be authenticated by my Mac ID?",
+                "Which applications or websites are compatible with my Mac ID?",
+                "May I use my Mac ID to access certain online platforms and services?",
+                "Are there any specific webpages that support authentication using my Mac ID?"
+            ],
+            "responses":[
+                "Mosaic\nMacDrive\nMicrosoft 365\nEmail\nLibAccess\nMacSecure\nMacVote\nVirtual Private Network (VPN)\nAvenue to Learn\nStudent Print Services"
+            ]
+        },
+        {
+            "tag": "macid_not_working",
+            "patterns":[
+                "My password is not working/I can't remember my MacID",
+                "The Mac ID login isn't working anymore.",
+                "Why won't my Mac ID work now?",
+                "Is it possible to reset my Mac ID if I forget my password?"
+            ],
+            "responses":[
+                "Please visit our account management page."                
+            ]
+        },
+        {
+            "tag":"macid_contact",
+            "patterns":[
+                "Who should I contact if I have problems with my MacID?",
+                "Where can I get assistance regarding issues related to my Mac ID?",
+                "To whom do I need to reach out in case of a problem with my Mac ID?",
+                "If I encounter difficulties, who can assist me with my Mac ID?"
+            ],
+            "responses":[
+                "If you have any issues or questions regarding your MacID, visit our Need Help? – Contact Us page for assistance. Live chat, located in the bottom right-hand corner, is the quickest and easiest way to receive assistance."
+            ]
+        },
+        {
+            "tag": "macid_email",
+            "patterns":[
+                "Why do I need to provide an external Email account?",
+                "Do I really need to give up my email address?",
+                "How does this affect my ability to receive emails from friends and family?",
+                "Can you explain why I must enter an alternative email address?"
+            ],
+            "responses":[
+                "An external email is mandatory for activation. When you activate your MacID, a temporary password will be sent to your external email account."
+            ]
+        }
+    ]
+}

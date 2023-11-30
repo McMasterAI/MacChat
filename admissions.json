@@ -1,0 +1,163 @@
+{
+    "intents": [
+        {
+            "tag": "program_requirements",
+            "patterns": [
+                "Who can I talk to about program requirements?",
+                "What is the process for submitting a program requirement?",
+                "Is there someone available to discuss the program requirements with me?",
+                "Could you direct me to a person knowledgeable about the program's requirements?",
+                "I need assistance with understanding the program requirements. Can you connect me to someone who can help?"
+            ],
+            "responses": [
+                "Contact your program office directly for specific information regarding application requirements, deadlines, offer status, application changes or questions. The School of Graduate Studies does not have full details available to answer questions about application requirements for each program.",
+                "Please reach out to your program office for details on application requirements, deadlines, offer status, changes, or any questions. The School of Graduate Studies doesn't possess specific information for each program",
+                "For precise details about application requirements, deadlines, offer status, changes, or queries, it's best to contact your program office directly. We at the School of Graduate Studies may not have all program-specific information.",
+                "For information on application requirements, deadlines, offer status, changes, or any queries, it's advisable to contact your program office. The School of Graduate Studies might not have all the details for every program."
+            ]
+        },
+        {
+            "tag": "program_office", 
+            "patterns": [
+                "Where can I find the contact information for my program office?",
+                "How do I get in touch with the program office?",
+                "I need to reach out to the program office. Can you give me their details?",
+                "Where should I look to find the contact details for my program office?",
+                "What resources can I use to discover the contact information for my program office?"
+            ],
+            "responses": [
+                "You can find contacts for every graduate program on our website.",
+                "Our website houses contacts for each graduate program.",
+                "For contacts related to each graduate program, our website is the go-to resource."
+            ]
+        },
+        {
+            "tag": "admission_deadline",
+            "patterns":[
+                "What is the deadline to clear conditions of my admission?",
+                "When does the deadline for clearing conditions of admission occur?",
+                "Can I know when the deadline for clearing conditions of admission will be?",
+                "When are students expected to submit their transcripts and other documents?",
+                "When must I submit all required documents by?"
+            ],
+            "responses":[
+                "Condition Clearing deadlines:\nFall admission \u2013 December 1\nWinter admission \u2013 April 1\nSpring admission \u2013 August 1\nIf you have questions about the status of your condition clearing, please contact the graduate program office directly. Visit our website for a list of program contacts."
+            ]
+        },
+        {
+            "tag":"admission_documents",
+            "patterns":[
+                "Where do I send my Conditions Clearing documents?",
+                "Where is the designated location for sending my Conditions Clearing documents?",
+                "Could you guide me on where I need to send my Conditions Clearing documents?",
+                "Which address or email should I use to send my Conditions Clearing documents?",
+                "To which address should I send my Conditions Clearing documents?"
+            ],
+            "responses":[
+                "All documents required for admission or condition clearing must be submitted to the office of the program you have applied to or are joining.Please email a high-quality scan of the required document to the program\u2019s graduate administrator/officer, or program coordinator.You can find contacts for every graduate program on our website.\u00a0"
+            ]
+        },
+        {
+            "tag":"re_admission",
+            "patterns":[
+                "I would like to be re-admitted to my program. How do I do that?",
+                "I'd like to apply again for a degree from McMaster. What steps should I take?",
+                "I want to enroll as an undergraduate student at McMaster University. Please provide instructions.",
+                "I want to enroll in another program at McMaster University. When do I need to start applying?",
+                "I want to reapply for an undergraduate degree at McMaster University. Please tell me how to proceed."
+            ],
+            "responses":[
+                "Talk to your program and complete the Readmission form. After your request is submitted you can pay the readmission fee in your Mosaic Student Centre.Only after payment is received will a review/processing of your readmission request begin."
+            ]
+        },
+        {
+            "tag": "mac_email_id",
+            "patterns":[
+                "What do I do if I didn't receive an email with my Mac ID/Student #?",
+                "How do I get my Mac ID/Student #?",
+                "If I don't have access to my Mac ID/Student#, what should I do?",
+                "My Mac ID/Student# was not sent to me. Where can I find it now?",
+                "I haven't received my Mac ID/Student # yet. Can someone help me locate it?"
+            ],
+            "responses":[
+                "Once you apply on OUAC, you should receive an email shortly with information regarding your Mac ID and student number. If you have not received this email, please email us at thinkeng@mcmaster.ca with your full name, registered email, and OUAC reference number. We will then look into this for you!"
+            ]
+        },
+        {
+            "tag": "mac_ouac",
+            "patterns":[
+                "Does it matter how I rank McMaster on OUAC?",
+                "Is there any difference in ranking between different universities when applying to OUAC?",
+                "Do all applicants who are accepted by McMaster have equal chances of being admitted?",
+                "Are there any specific criteria or factors that influence the decision making process at McMaster when considering applications for admission?",
+                "Can I still apply even though I am ranked lower than other universities?"
+            ],
+            "responses":[
+                "Nope, it does not matter! We do not factor your OUAC program choice into our admissions decisions."
+            ]
+        },
+        {
+            "tag": "admission_supapp",
+            "patterns":[
+                "What do I need to know about the Supplementary Application?",
+                "When will the Supplementary Application deadline be?",
+                "Where is the Supplementary Application form located?",
+                "Are there any specific requirements or documents needed for the Supplementary Application?"
+            ],
+            "responses":[
+                "The mandatory supplementary application for our Faculty of Engineering programs involves a $50 fee, requiring submission before Friday, January 27th, 12:00 pm (noon) Eastern Time, comprising four questions (three video responses and one written response) to showcase applicants' personal projection, with specific response time limits and the opportunity for practice questions available through an email-invited supplementary application portal, and in case of issues, students can reach out to thinkeng@mcmaster.ca for email-related problems or contact KIRA at support@kiratalent.com for technical issues with the KIRA application."
+            ]
+        },
+        {
+            "tag": "admission_marks",
+            "patterns":[
+                "What marks do I need to get into the program I've applied for?",
+                "Which grades do I need to achieve to meet the admission criteria?",
+                "What are the minimum scores required for each subject area?",
+                "How does the marking system work?"
+            ],
+            "responses":[
+                "Please visit the admissions site for the most up-to-date information regarding admission requirements. Along with your admissions average, we also take your performance on the mandatory supplementary application into account."
+            ]
+        },
+        {
+            "tag": "admission_status",
+            "patterns":[
+                "Where can I check the status of my application?",
+                "How long after submitting an application can I expect a response from the university?",
+                "When will I receive information regarding my admission decision?",
+                "If I don't hear back, should I assume that I was not accepted?"
+            ],
+            "responses":[
+                "You can check your application status on your Mosaic student centre. This is the first place you will be able to see an offer. We will email you as well shortly after Mosaic is updated!"
+            ]
+        },
+        {
+            "tag": "admission_free_choice",
+            "patterns":[
+                "What is Free Choice? How do I know if I’ve received Free Choice?",
+                "Why did I receive Free Choice and what does it mean?",
+                "Is Free Choice available in every year? When does it become available again?",
+                "I have been offered Free Choice. What steps should I take next?"
+            ],
+            "responses":[
+                "If granted Free Choice, it will be indicated in your offer of admission (determined by your admission grades) or on Mosaic (based on your final grades). For Fall 2023 intake, the Free Choice cut-offs are 96% for Engineering 1 and 98% for iBioMed 1"
+            ]
+        },
+        {
+            "tag": "admissions_when",
+            "patterns":[
+                "When will I receive my offer of admission?",
+                "What is the expected timeframe for receiving my admission offer?",
+                "When can I anticipate receiving notification about my admission offer?",
+                "At what point should I expect to receive my admission offer?",
+                "Do you have an estimated timeline for when admission offers will be sent out?",
+                "Could you provide information on when I might receive my admission offer?"
+            ],
+            "responses":[
+                "Offers of admission for Computer Science, BTech, and Engineering are sent out in two rounds: the first round of offers will be sent out within the first two weeks of March, and the second round in early May. iBioMed offers are sent out in early May (one round only)."
+            ]
+        }
+
+    ]
+}
