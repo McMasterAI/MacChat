@@ -1,0 +1,224 @@
+{
+    "intents": [
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "What payment methods are accepted by the university?",
+                "Tell me about the accepted payment options.",
+                "What forms of payment can I use for university transactions?"
+            ],
+            "responses": [
+                "The university accepts various payment methods, including credit/debit cards, bank transfers, and sometimes electronic wallets. Check the university's financial services office or website for a detailed list of accepted payment options."
+            ]
+        },
+        {
+            "tag": "tuition_payment",
+            "patterns": [
+                "How do I make a payment for tuition?",
+                "Tell me about the process of paying tuition fees.",
+                "What steps do I need to follow to make a tuition payment?"
+            ],
+            "responses": [
+                "To make a tuition payment, log in to your student portal and navigate to the financial services or billing section. Follow the instructions to view your balance and make a payment using the available options, such as credit card or bank transfer."
+            ]
+        },
+        {
+            "tag": "payment_deadlines",
+            "patterns": [
+                "When are the payment deadlines for tuition?",
+                "Tell me about the deadlines for fee payments.",
+                "What is the schedule for tuition payment deadlines?"
+            ],
+            "responses": [
+                "Payment deadlines for tuition are typically specified in the academic calendar. It's crucial to adhere to these deadlines to avoid late fees or registration holds. Check the university calendar or financial services office for the specific dates."
+            ]
+        },
+        {
+            "tag": "late_payment_penalty",
+            "patterns": [
+                "Is there a penalty for late tuition payments?",
+                "Tell me about the consequences of missing a payment deadline.",
+                "What happens if I make a late payment for tuition?"
+            ],
+            "responses": [
+                "Late tuition payments may result in penalties or late fees. It's important to make payments on time to avoid any negative consequences for your enrollment or academic standing. Refer to the university's financial policies for details on late payment penalties."
+            ]
+        },
+        {
+            "tag": "payment_confirmation",
+            "patterns": [
+                "How can I confirm that my payment was successful?",
+                "Tell me about receiving confirmation for my tuition payment.",
+                "Is there a way to verify that my payment went through?"
+            ],
+            "responses": [
+                "Upon successful payment, you should receive a confirmation email or notification. Additionally, you can check your student portal or contact the university's financial services office to confirm that your tuition payment has been processed."
+            ]
+        },
+        {
+            "tag": "scholarship_disbursement",
+            "patterns": [
+                "When and how are scholarship funds disbursed?",
+                "Tell me about the disbursement process for scholarships.",
+                "What is the timeline for receiving scholarship funds?"
+            ],
+            "responses": [
+                "Scholarship disbursement timelines vary, and the funds are often applied directly to your student account. Check with the scholarship office or financial aid department for information on when and how scholarship funds will be disbursed."
+            ]
+        },
+        {
+            "tag": "payment_plan_options",
+            "patterns": [
+                "Are there payment plans available for tuition?",
+                "Tell me about installment options for paying tuition.",
+                "What are the payment plan choices for university fees?"
+            ],
+            "responses": [
+                "Some universities offer payment plans that allow you to pay tuition in installments. Contact the financial services office to inquire about available payment plan options, eligibility criteria, and the application process."
+            ]
+        },
+        {
+            "tag": "refund_process",
+            "patterns": [
+                "How does the refund process work?",
+                "Tell me about getting a refund for overpaid fees.",
+                "What are the steps for requesting a refund?"
+            ],
+            "responses": [
+                "The refund process typically involves submitting a refund request to the financial services office. If you've overpaid or are eligible for a refund, follow the guidelines provided by the university for initiating the refund process."
+            ]
+        },
+        {
+            "tag": "payment_assistance",
+            "patterns": [
+                "Is there financial assistance available for payment?",
+                "Tell me about options for financial aid with payments.",
+                "Are there resources to help with tuition payment?"
+            ],
+            "responses": [
+                "If you're facing financial challenges, consider reaching out to the financial aid office. They can provide information on available assistance programs, payment plans, or potential solutions to help you manage your tuition payments."
+            ]
+        },
+        {
+            "tag": "payment_receipt",
+            "patterns": [
+                "How can I obtain a receipt for my payment?",
+                "Tell me about receiving a payment confirmation or receipt.",
+                "Is there a way to download a receipt for my tuition payment?"
+            ],
+            "responses": [
+                "You can usually download or request a receipt for your payment through your student portal or by contacting the financial services office. Check the payment confirmation details or the university's website for instructions on obtaining payment receipts."
+            ]
+        },
+        {
+            "tag": "payment_installments",
+            "patterns": [
+                "Can I pay my tuition in multiple installments?",
+                "Tell me about installment options for tuition payments.",
+                "What are the choices for paying tuition in installments?"
+            ],
+            "responses": [
+                "Yes, some universities offer installment plans that allow you to spread your tuition payments over multiple deadlines. Contact the financial services office for information on available installment options and how to enroll in a payment plan."
+            ]
+        },
+        {
+            "tag": "international_payment",
+            "patterns": [
+                "How can international students make tuition payments?",
+                "Tell me about payment options for international students.",
+                "What are the methods of paying tuition for international students?"
+            ],
+            "responses": [
+                "International students can typically make tuition payments through wire transfers, international credit/debit cards, or other specified methods. Check with the international student services office or financial services for details on payment options available to international students."
+            ]
+        },
+        {
+            "tag": "payment_portal_access",
+            "patterns": [
+                "How do I access the online payment portal?",
+                "Tell me about navigating the university's payment portal.",
+                "What are the steps to log in to the online payment system?"
+            ],
+            "responses": [
+                "Access the online payment portal through your student portal or the university's financial services website. Follow the login instructions provided, and you should be able to view your balance, make payments, and manage your financial transactions online."
+            ]
+        },
+        {
+            "tag": "payment_due_notifications",
+            "patterns": [
+                "Will I receive notifications for upcoming payment due dates?",
+                "Tell me about receiving reminders for payment deadlines.",
+                "Do you send alerts for impending payment due dates?"
+            ],
+            "responses": [
+                "Yes, universities often send notifications or reminders about upcoming payment due dates. Ensure that your contact information is up to date in the student portal to receive timely alerts. Check with the financial services office for details on their notification system."
+            ]
+        },
+        {
+            "tag": "payment_security",
+            "patterns": [
+                "How is the security of online payments ensured?",
+                "Tell me about the security measures for online transactions.",
+                "What steps are taken to secure online payments?"
+            ],
+            "responses": [
+                "The university employs secure payment gateways and encryption protocols to ensure the security of online transactions. Your financial information is treated with confidentiality. Check the university's website or contact the IT department for information on payment security measures."
+            ]
+        },
+        {
+            "tag": "payment_confirmation_delay",
+            "patterns": [
+                "What should I do if I don't receive a payment confirmation?",
+                "Tell me about delays in receiving payment confirmations.",
+                "Is there a process for addressing issues with payment confirmations?"
+            ],
+            "responses": [
+                "If you experience a delay in receiving a payment confirmation, check your spam or junk folder in your email. If the issue persists, contact the financial services office for assistance. They can verify the status of your payment and provide any necessary documentation."
+            ]
+        },
+        {
+            "tag": "third_party_payments",
+            "patterns": [
+                "Can someone else make a payment on my behalf?",
+                "Tell me about third-party payments for tuition.",
+                "Is there a process for someone else to pay my university fees?"
+            ],
+            "responses": [
+                "Yes, universities often allow third-party payments. Ensure that the payer has the necessary details, such as your student ID and payment information. Check with the financial services office for specific instructions on facilitating third-party payments."
+            ]
+        },
+        {
+            "tag": "payment_errors",
+            "patterns": [
+                "What should I do if there is an error in my payment?",
+                "Tell me about addressing errors in tuition payments.",
+                "Is there a process for correcting payment mistakes?"
+            ],
+            "responses": [
+                "If you encounter an error in your payment, contact the financial services office immediately. Provide details about the error, and they will guide you through the process of correcting any mistakes in your payment transactions."
+            ]
+        },
+        {
+            "tag": "payment_taxes",
+            "patterns": [
+                "Are tuition payments subject to taxes?",
+                "Tell me about tax implications for university payments.",
+                "Do I need to consider taxes when making tuition payments?"
+            ],
+            "responses": [
+                "Tuition payments may have tax implications, and it's advisable to consult with a tax professional for personalized advice. Some education-related expenses may be eligible for tax deductions or credits. Check the university's financial services office for general information on tax considerations for tuition payments."
+            ]
+        },
+        {
+            "tag": "payment_assistance_programs",
+            "patterns": [
+                "Are there assistance programs for students struggling with payments?",
+                "Tell me about financial aid programs to help with payments.",
+                "What resources are available for students facing payment difficulties?"
+            ],
+            "responses": [
+                "Universities may have assistance programs or emergency funds to support students facing financial challenges. Contact the financial aid office or student services for information on available resources and assistance programs to help with tuition payments."
+            ]
+        }
+    ]
+}
