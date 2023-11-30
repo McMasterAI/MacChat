@@ -1,7 +1,7 @@
 {
     "intents": [
         {
-            "tag": "government aid outside of ontario",
+            "tag": "government_aid_outside_of_ontario",
             "patterns": [
                 "what if im not from ontario",
                 "I'm not from Ontario, what government aid options do I have?",
@@ -15,7 +15,7 @@
             ]
         },
         {
-            "tag": "US student",
+            "tag": "US_student",
             "patterns": [
                 "What if im a US student",
                 "How can US students access financial aid?",
@@ -29,7 +29,7 @@
             ]
         },
         {
-            "tag": "Where should i apply funding",
+            "tag": "Where_should_i_apply_funding",
             "patterns": [
                 "Do I apply for funding through the Ontario Student Assistance Program (OSAP) or my provincial student aid program?",
                 "Which program should I apply to for funding, OSAP or my provincial student aid?",
@@ -43,7 +43,7 @@
             ]
         },
         {
-            "tag": "provincial aid application",
+            "tag": "provincial_aid_application",
             "patterns": [
                 "How is my provincial aid application processed?",
                 "What is the process for processing my provincial aid application?",
