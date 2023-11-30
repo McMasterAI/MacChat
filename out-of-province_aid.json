@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag": "government aid outside of ontario",
+            "patterns": [
+                "what if im not from ontario",
+                "I'm not from Ontario, what government aid options do I have?",
+                "Are there government aid programs for students outside of Ontario?",
+                "What should I do if I'm not from Ontario?",
+                "Are there government aid programs for students in provinces or territories outside of Ontario?",
+                "I'm from another province, what government aid is available for me?"
+            ],
+            "responses": [
+                "Apply for the government loan/grant program in your home province, territory or state. Find more info on government aid programs outside Ontario.: https://registrar.mcmaster.ca/aid-awards/osap-government-aid/#tab-50"
+            ]
+        },
+        {
+            "tag": "US student",
+            "patterns": [
+                "What if im a US student",
+                "How can US students access financial aid?",
+                "Are there funding options for students from the United States?",
+                "Are there specific financial aid options for U.S. students?",
+                "Can students from the United States access government student loans?",
+                "What funding opportunities are available for U.S. students?"
+            ],
+            "responses": [
+                "U.S. students can apply for government student loans through the U.S. Department of Education’s William D. Ford Federal Direct Loan Program. Learn more about funding options for U.S. students. https://registrar.mcmaster.ca/funding-for-u-s-students/ "
+            ]
+        },
+        {
+            "tag": "Where should i apply funding",
+            "patterns": [
+                "Do I apply for funding through the Ontario Student Assistance Program (OSAP) or my provincial student aid program?",
+                "Which program should I apply to for funding, OSAP or my provincial student aid?",
+                "Should I submit my funding application to OSAP or my provincial student aid program?",
+                "How do I know if I should apply for funding through OSAP or my provincial student aid program?",
+                "Is OSAP the right option for funding, or should I consider my provincial student aid program?",
+                "What factors determine whether I apply for funding through OSAP or my provincial student aid program?"
+            ],
+            "responses": [
+                "Apply for OSAP if Ontario is the last Canadian province that you have resided in for at least 12 consecutive months without being a full-time post-secondary (college or university) student (i.e. prior to starting post-secondary studies) and you meet all other eligibility criteria Denied by your province? Please visit Student Services: https://registrar.mcmaster.ca/#contactinformation"
+            ]
+        },
+        {
+            "tag": "provincial aid application",
+            "patterns": [
+                "How is my provincial aid application processed?",
+                "What is the process for processing my provincial aid application?",
+                "Can you explain how my application for provincial aid is processed?",
+                "Is there information on how my provincial aid application is processed?",
+                "Can you provide details on the processing of provincial aid applications?",
+                "Where can I find guidance on the processing of my application for provincial aid?"
+            ],
+            "responses": [
+                "Learn more here: https://registrar.mcmaster.ca/aid-awards/osap-government-aid/#tab-50",
+                "For information on how your provincial aid application is processed, visit: https://registrar.mcmaster.ca/aid-awards/osap-government-aid/#tab-50"
+
+            ]
+        }
+        
+        
+
+    ]
+}

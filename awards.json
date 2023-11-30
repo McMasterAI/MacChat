@@ -1,0 +1,162 @@
+{
+    "intents": [
+        {
+            "tag": "Indigenous band funding",
+            "patterns": [
+                "Does band funding affect the amount of OSAP I will receive?",
+                "If I receive financial assistance from my Indigenous band, will it affect my OSAP application?",
+                "Can I still apply for OSAP if I receive funding from the Post-Secondary Student Support Program (PSSSP) through my band?",
+                "Is the funding I receive from my Indigenous band considered when calculating my OSAP entitlement?",
+                "Do I need to report scholarships or bursaries to OSAP if I'm already receiving funding from my Indigenous band?",
+                "Is there any interaction between Indigenous band funding and government student loans like OSAP?",
+                "If I have additional financial support from my band, does that impact my eligibility for other student aid programs?"
+            ],
+            "responses": [
+                "No. Indigenous students do not have to declare funding they receive from PSSSP on their OSAP application. Also, scholarships and bursaries will not affect your PSSSP or OSAP entitlement."
+                
+            ]
+        },
+        {
+            "tag": "deadline for scholarships",
+            "patterns": [
+                "When is the deadline to apply for scholarships and bursaries?",
+                "What is the last date to submit applications for scholarships?",
+                "Are there specific deadlines for scholarship applications?",
+                "When do I need to apply for scholarships and bursaries?",
+                "Can you provide details on the scholarship application deadline?",
+                "Where can I find information about the deadlines for scholarship applications?",
+                "Is there a cutoff date for submitting scholarship applications?"
+            ],
+            "responses": [
+                "Find out key dates and deadlines for all aid and awards here: https://registrar.mcmaster.ca/dates-and-deadlines/#tab-4",
+                "For information on key dates and deadlines for all aid and awards, please visit: https://registrar.mcmaster.ca/dates-and-deadlines/#tab-4",
+                "Visit this link for comprehensive information on scholarship and bursary deadlines: https://registrar.mcmaster.ca/dates-and-deadlines/#tab-4"
+                
+            ]
+        },
+        {
+            "tag": "scholarships via AwardSpring without OSAP",
+            "patterns": [
+                "How do I apply for scholarships via AwardSpring if I don’t have OSAP?",
+                "Can I still access scholarships via AwardSpring without having OSAP?",
+                "Is OSAP a requirement to apply for scholarships through AwardSpring?",
+                "What if I don't qualify for OSAP? Can I still apply for scholarships on AwardSpring?",
+                "Is OSAP mandatory for AwardSpring scholarships?",
+                "Do I have to be on OSAP to be eligible for scholarships through AwardSpring?",
+                "What if I choose not to apply for OSAP? Can I still apply for scholarships on AwardSpring?"
+            ],
+            "responses": [
+                "You do not need to receive OSAP to apply for scholarships via AwardSpring. To apply, you must first complete common application. You can then and find all the scholarships you are eligible for and apply individually  for each.",
+                "No, OSAP is not mandatory to apply for scholarships via AwardSpring. You can access and apply for scholarships independently by completing the common application on the platform.",
+                "Absolutely! OSAP is not a prerequisite for applying for scholarships via AwardSpring. Simply complete the common application, explore eligible scholarships, and apply individually for each."
+                
+            ]
+        },
+        {
+            "tag": "indigenous students emergency financial support",
+            "patterns": [
+                "I am in need of emergency financial support. What do I do?",
+                "How can I get emergency financial assistance as an Indigenous student?",
+                "What steps should I take if I'm facing a financial crisis as an Indigenous student?",
+                "Where can I seek emergency financial support as an Indigenous student?",
+                "Is there a process for Indigenous students to request emergency financial assistance?",
+                "What resources are available for emergency financial support for Indigenous students?"
+            ],
+            "responses": [
+                "Indigenous students experiencing a financial emergency may visit Indigenous Student Services (L.R.W Hall, 1811)  or contact Student Services to discuss and explore solutions.",
+                "If you're an Indigenous student in need of emergency financial support, please visit Indigenous Student Services at L.R.W Hall, 1811, or reach out to Student Services for assistance."                
+            ]
+        },
+        {
+            "tag": "aid and awards for black students",
+            "patterns": [
+                "Is there any aid and/or awards for black students?",
+                "Are there specific financial aid opportunities for black students?",
+                "Where can I find information about scholarships for black students?",
+                "What financial support is available for black students?",
+                "Are there scholarships exclusively for black students?",
+                "Can you provide details about aid and awards for students of African descent?"
+            ],
+            "responses": [
+                "Check out this link to learn more for Aid & Awards for Black Students: https://registrar.mcmaster.ca/aid-awards-for-black-students/ "
+
+            ]
+        },
+        {
+            "tag": "Automatically considered for entrance awards",
+            "patterns": [
+                "Am I automatically considered for all entrance awards?",
+                "Do I need to apply separately for entrance awards?",
+                "Is there an automatic consideration for all available entrance awards?",
+                "Are all entrance awards considered automatically based on my application?",
+                "Is there a separate process for automatic consideration of entrance awards?",
+                "Should I expect automatic consideration for all eligible entrance awards?"
+            ],
+            "responses": [
+                "No. While you don’t need to apply for automatic awards, you will need to apply to awards that match your eligibility."             
+            ]
+        },
+        {
+            "tag": "Eligible for more than one entrance award",
+            "patterns": [
+                "Am I eligible for more than one automatic entrance award?",
+                "Can I qualify for multiple automatic entrance awards?",
+                "Is it possible to receive more than one entrance award automatically?",
+                "Is there a chance to be eligible for multiple automatic entrance awards?",
+                "Can I receive both the McMaster University Award of Excellence and a Faculty-specific Achievement Award?",
+                "Are there restrictions on being eligible for more than one entrance award?"
+                
+            ],
+            "responses": [
+                "Students can be eligible for either the McMaster University  Award of  Excellence or the Faculty-specific Achievement Award.",
+                "Students may be eligible for either the McMaster University Award of Excellence or the Faculty-specific Achievement Award, but not both simultaneously."                
+            ]
+        },
+        {
+            "tag": "Help with AwardSpring",
+            "patterns": [
+                "Can I get help with AwardSpring?",
+                "Is there assistance available for navigating AwardSpring?",
+                "Where can I find guidance on using AwardSpring?",
+                "How can I receive assistance with AwardSpring?",
+                "Is there a resource for troubleshooting issues with AwardSpring?",
+                "Where should I go for help regarding AwardSpring?"
+            ],
+            "responses": [
+                "Yes! Our AwardSpring guide walks you through everything you need to know.",       
+                "Certainly! Refer to our AwardSpring guide, which provides comprehensive assistance for all your needs."         
+            ]
+        },
+        {
+            "tag": "Offer Letter award",
+            "patterns": [
+                "When will I know if there are any changes to my award offer?",
+                "Is there a specific timeline for updates to my award offer?",
+                "When can I expect information about changes to my award offer?",
+                "What is the timeframe for updates to my award offer?",
+                "When is the process for adjusting award offers usually completed?",
+                "Can I anticipate changes to my award offer at a specific time?"
+            ],
+            "responses": [
+                "Admission averages are re-calculated in August after the receipt of all final grades from OUAC. Awards are typically adjusted between the end of August to mid-September.",        
+                "Admission averages are re-calculated in August after receiving all final grades from OUAC. Award adjustments usually occur between the end of August and mid-September."        
+            ]
+        },
+        {
+            "tag": "Didnt receive scholarship offer",
+            "patterns": [
+                "I didn’t receive a scholarship offer, what are my options?",
+                "What should I do if I didn’t get a scholarship offer?",
+                "Are there alternatives if I didn’t receive a scholarship?",
+                "What steps can I take if I didn’t get a scholarship offer?",
+                "Are there other opportunities if I wasn’t offered a scholarship?",
+                "What are my alternatives if I didn’t receive a scholarship?"
+            ],
+            "responses": [
+                "You still have options! Increasing your average to the automatic award cut-off will make you eligible for automatic awards. You can also apply for awards on AwardSpring and through external sources."         
+            ]
+        }
+        
+
+    ]
+}
