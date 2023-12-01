@@ -1,84 +1,1370 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
-  ]
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Hi there"
+            ],
+            "responses": [
+                "Welcome to the official McMaster University website! How can I help you today?",
+                "Hello there! What can I do for you today?",
+                "Hi there! How can I assist you today?",
+                "Hello! What brings you to McMaster University?",
+                "Greetings! What are you looking for?",
+                "Hello! I'm here and ready to chat. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "bot_description",
+            "patterns": ["What are you?", "What do you do?", "What can you do for me?"],
+            "responses": [
+                "I am the official McMaster University chatbot. I provide detailed responses for your questions. Ask away!",
+                "I am a chatbot for McMaster University. I answer visitors questions. What do you want to ask?",
+                "I am a chatbot designed to assist and provide information about McMaster University. How can I help you today?",
+                "I'm your friendly virtual assistant for answering all things McMaster University! Feel free to ask me anything you need."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+                "Goodbye! If you have more questions in the future, feel free to return. Don't forget to bleed maroon!",
+                "Take care! I'll be here whenever you need assistance. Go Maraduers!",
+                "See you later! Feel free to drop by anytime you have questions. Go Mac!",
+                "Goodbye for now! Wishing you a fantastic day ahead. Go McMaster!",
+                "Until next time! Don't hesitate to reach out if you need help. Go maroons!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!",
+                "Thank you for your help"
+            ],
+            "responses": [
+                "Happy to help! That is apart of the Maroon spirit.",
+                "Any time! After all, that is what I am here for.",
+                "It has been my pleasure to help you. You will find that help will always be given at McMaster to those who ask for it."
+            ]
+        },
+        {
+            "tag": "student_card_details",
+            "patterns": [
+                "What is a McMaster student card?",
+                "What is a student card?",
+                "What is a student ID card",
+                "McMaster Student card",
+                "McMaster Student ID card",
+                "Student card",
+                "Student ID Card"
+            ],
+            "responses": [
+                "The McMaster Student card is a unique card that displays your student number, name, photo, and a barcode that identifies you as a McMaster University student. It is used to identify yourself as a McMaster University student when sitting exams, making inquiries about your personal academic record, accessing and paying for various services on campus."
+            ]
+        },
+        {
+            "tag": "getting_student_card",
+            "patterns": [
+                "How do you get a student card?",
+                "How do you get a McMaster Student card?",
+                "How do you get a McMaster Student ID card?",
+                "How do you get a student card?",
+                "How do you get a student ID card?",
+                "Getting student card"
+            ],
+            "responses": [
+                "International Undergraduate Students:\nIf you uploaded your photo by August 11, please pick-up your card in International Student Services, MUSC B118. If you uploaded your photo after August 11, please visit the Registrar's Office, Student Services, GH-108 to have your card printed.\n\nUndergraduate and Graduate Students:\nVisit the Registrar's Office, Gilmour Hall, 108 to pick up your McMaster Student ID Card. Scan the QR code on our website or at the office to be placed in line. Please ensure that your photo is uploaded prior to joining the line.\n\nMcMaster Continuing Education Students:\nMCE students can upload a photo to Mosaic and visit the Registrar’ Office in Gilmour Hall, 108 to have their card printed.  There is a $30 payment to the student account required."
+            ]
+        },
+        {
+            "tag": "replacing_student_card",
+            "patterns": [
+                "How do I replace my McMaster Student card?",
+                "How do I replace my student card?",
+                "How do I replace my student ID card?",
+                "How do I replace my McMaster Student ID card?",
+                "Replacing student card",
+                "Replace student card"
+            ],
+            "responses": [
+                "If you require a replacement ID card from June 12 to August 25, 2023, complete steps one and two from the following list and then pick up your new card between August 25 and 27, 2023 in MUSC. After August 27, 2023, ID card printing will return to Gilmour Hall 108. If you have an immediate need for your ID card (i.e., meal plan, gym, exams) please visit GH 108.\n\n1. Deactivate your card by logging into your account or connecting with Student Services.\n2. Join the virtual line to pick up your new McMaster Student ID Card in Gilmour Hall 108.\n3. Wait for a text message inviting you to the office to pick up your card.\n4. Bring government-issued photo ID to your appointment.\n5. When you receive your card, a $30 fee will be applied to your Student Account which is due in 30 days. You can make a payment to your McMaster Student account via online banking."
+            ]
+        },
+        {
+            "tag": "exam details",
+            "patterns": [
+                "Can you provide information on the exam?",
+                "When is the next exam scheduled?",
+                "Exam details",
+                "Exam",
+                "What do I need to bring to the exam?"
+            ],
+            "responses": [
+                "Personal schedules will be available in Mosaic: Select the My Exam Schedule tile in Mosaic and then Final Exams. Please note that exam schedules may be unavailable between 1:00 - 3:00 p.m. daily.\n\nThe student must bring their McMaster Student card to the examination room for photo identification purposes. The course instructor will provide details on what is permitted in the examination room.\n\nPunctuality is essential and no extra time will be allowed to those arriving late. No student will be admitted to an examination room more than 30 minutes after the start of any session.No student may leave the room to withdraw from an examination during the first 45 minutes of any session. Students must leave the room immediately after handing in their examination materials."
+            ]
+        },
+        {
+            "tag": "exam conflicts",
+            "patterns": ["Exam conflict", "Multiple exams", "Multiple exams in 1 day"],
+            "responses": [
+                "The following are considered exam conflicts:\n\n1. Multiple examinations scheduled at the same time.\n2. 3 examinations in 1 calendar day.\n3. 3 examinations over 2 calendar days.\n\nTo resolve exam conflicts, visit the Office of the Registrar at Gilmour Hall, Room 108, Weekdays 10 a.m. - 3:30 p.m."
+            ]
+        },
+        {
+            "tag": "exam deferred",
+            "patterns": [
+                "Deferred exam",
+                "What is a deferred exam?",
+                "How do I defer my exam?",
+                "Exam deferred",
+                "I want to defer my exam",
+                "Defer exam"
+            ],
+            "responses": [
+                "If you have missed an exam due to medical or personal reasons, you will need to obtain and complete the relevant form from your Faculty Office and submit it within five working days of the missed exam. Please note, deferred exams may affect academic decisions and progress. For more information, visit https://registrar.mcmaster.ca/exams-grades/exams/#tab-20"
+            ]
+        },
+        {
+            "tag": "exam locations",
+            "patterns": [
+                "Exam locations",
+                "Exam acronyms",
+                "Exam buildings",
+                "Where is this exam location?",
+                "Where do I go for my exam?"
+            ],
+            "responses": [
+                "Exam Location Legend:\n\nIWC 1 (enter through DBAC): Burridge Gymnasium\nIWC 2 (enter through IWC): Smith Gymnasium\nIWC 3 (enter through IWC): East Auxiliary Gymnasium\nABB: A.N. Bourns Science Building\nBSB: Burke Science Building\nCDN MARTYRS: Canadian Martyrs Catholic Elementary School (1355 Main St. W., Hamilton, ON L8S 4M7)\nCNH: Chester New Hall\nDSB: DeGroote School of Business\nETB: Engineering Technology Building\nGSB: General Sciences Building\nHH: Hamilton Hall\nHSC: Health Sciences Centre\nIAHS: Institute for Applied Health Sciences Building\nITB: Information Technology Building\nJHE: John Hodgins Engineering Building\nKTH: Kenneth Taylor Hall\nLRW: L.R. Wilson Hall\nMARC: McMaster University Automotive Research Centre (200 Longwood Rd. S., Hamilton, ON L8P 0A6)\nMDCL: Michael DeGroote Centre for Learning and Discovery\nMUSC: McMaster University Student Centre\nPC: Psychology Building\nPGCLL: Peter George Centre for Living and Learning\nT13: Building T13\nTSH: Togo Salmon Hall\nUH: University Hall"
+            ]
+        },
+        {
+            "tag": "transcript details",
+            "patterns": [
+                "What is a transcript?",
+                "What is on a transcript?",
+                "What appears on my transcript?",
+                "How can I view my grades?",
+                "Transcript"
+            ],
+            "responses": [
+                "A transcript is a copy of your permanent academic record at McMaster University, duly certified by the Registrar's signature and the University crest on all pages. Transcripts are privileged information and are available by submitting a request via Mosaic. A transcript reflects the current status of your student record at the time it is issued. Please ensure that any changes to the transcript are recorded by reviewing your unofficial transcript before ordering a transcript. Your transcript provides such information as your courses and grades, term averages, awards and scholarships, and degree(s) awarded and conferral date following your convocation ceremony."
+            ]
+        },
+        {
+            "tag": "transcript requests",
+            "patterns": [
+                "Transcript request",
+                "Request transcript",
+                "I need a transcript",
+                "How do I get a transcript?"
+            ],
+            "responses": [
+                "There are various types of transcript requests: official e-transcript, official paper transcript, official transcript (courier), unofficial.\n\nOfficial e-transcript:\nProcessing time - up to 3 business days\nDelivery Method - Secure email hosted by Parchment Ordering Services ©\nCost - $3.00 CAD\nLink - https://epprd.mcmaster.ca/psp/prepprd/?cmd=login\n\nOfficial paper transcript:\nProcessing time - 7 to 10 business days\nDelivery Method - Mailed via Canada Post\nCost - Free\nLink - https://epprd.mcmaster.ca/psp/prepprd/?cmd=login\n\nOfficial paper transcript(courier):\nProcessing time - 1 to 3 business days\nDelivery Method - FedEx\nCost - $30.00 CAD\nLink - https://epprd.mcmaster.ca/psp/prepprd/?cmd=login\n\nUnofficial transcript:\nProcessing time - immediate\nDelivery Method - Download copy through Mosaic Student Center\nCost - Free\nLink - https://epprd.mcmaster.ca/psp/prepprd/?cmd=login"
+            ]
+        },
+        {
+            "tag": "transcript legend",
+            "patterns": [
+                "Grade scale",
+                "Transcript legend",
+                "What do my grades mean?",
+                "4.0 scale",
+                "12 point scale",
+                "Grade percentage",
+                "Grade points"
+            ],
+            "responses": [
+                "Awards:\nGraduation with Distinction: based on a minimum of 9.5 GPA over the entire program of study.\nDeans' Honour List: based on a minimum 9.5 GPA on at least 30 units since last assessed.\nProvost Honour Roll: based on a 12.0 GPA on at least 30 units since last assessed.\nCourse Credit: courses are rated in terms of units. A unit normally consists of one lecture hour per week per term or one laboratory period of not less than two and not more than three hours per week per term.\n\nMcMaster transcript legend:\nGrade:  Points:  Equivalent percentages:\nA+      12       90-100\nA       11       85-89\nA-      10       80-84\nB+      9        77-79\nB       8        73-76\nB-      7        70-72\nC+      6        67-69\nC       5        63-66\nC-      4        60-62\nD+      3        57-59\nD       2        53-56\nD-      1        50-52\nF       0        0-49"
+            ]
+        },
+        {
+            "tag": "diploma_requests",
+            "patterns": [
+                "How can I request my diploma?",
+                "Tell me how to request my diploma",
+                "I want to request my diploma",
+                "How can I get my diploma?"
+            ],
+            "responses": [
+                "Diploma requests after convocation will be available for pick-up in Registrar's Office Student Services (Gilmour Hall 108) one week after the last convocation ceremony. Diplomas are destroyed after one full calendar year. After one year, a replacement can be requested. If you would like to authorize someone to pick up your diploma on your behalf, you must submit a Service Request in Mosaic, and in the comments indicate the full name and date of birth of the authorized person. They will be required to present valid, government photo ID.\n\nFor a required fee, you can request a duplicate or replacement degree parchment, diploma or certificate. A second copy of the degree parchment, diploma or certificate will be reissued (noting the date of reissue) when the original document has been lost, damaged or destroyed. The words duplicate or reissued (will also indicate the print date) will be affixed to all degree parchments, diplomas or certificates requested in this manner. These will bear the signatures of the current Chancellor, President and Vice-Chancellor and Registrar.\n\nDiploma delivery following convocation:\nPlease submit a Service Request in Mosaic to request the delivery of your diploma following convocation. Complete the Diploma Delivery Request Form (https://registrar.mcmaster.ca/wp-content/uploads/2023/06/Diploma-Delivery-Request-Form-1.pdf) and attach it to the Service Request.  You will be contacted by phone for your payment. Please allow 2-3 weeks for processing.\n\nDiploma Duplicates & Replacements:\nPlease submit an order via Parchment (https://www.parchment.com/u/registration/1923072/institution) to request the re-issue of your diploma for pick-up or courier.\n\nFor more details, visit https://registrar.mcmaster.ca/services/diploma/."
+            ]
+        },
+        {
+            "tag": "parking",
+            "patterns": [
+                "Tell me about parking",
+                "How does parking work?",
+                "Where do I park?",
+                "How much does it cost to park?",
+                "Parking"
+            ],
+            "responses": [
+                "Security & Parking Services strive to provide our University Community and visitors, with safe and well maintained parking and transiting infrastructure. We are dedicated to courteous and helpful customer service through information resources, polite and knowledgeable staff, and convenient parking facilities. We encourage voluntary compliance.\n\nWe also encourage alternative means of transportation to preserve the environment. We have collaborative initiatives with the office of sustainability, such as go transit, carpool parking, and secure storage and bike locker rentals to meet storage needs for green transit users.\n\nIndividuals can park at McMaster through parking permits or pay-per-use. It is not guaranteed that any given parking lot will have available parking space at any given time. For more details, including rates, visit https://parking.mcmaster.ca.\n\nAs of June 19, 2023 we have relocated our Parking Office back to building T32 located near Lots N and P."
+            ]
+        },
+        {
+            "tag": "athletics",
+            "patterns": [
+                "What recreational activites are offered?",
+                "What sports teams does McMaster have?",
+                "Tell me about athletics at McMaster",
+                "Tell me about recreation at McMaster",
+                "Athletics",
+                "Recreation"
+            ],
+            "responses": [
+                "The Department of Athletics & Recreation serves our McMaster University and greater Hamilton communities, offering programs and services, facilities and expertise to support the cultivation of the human potential and wellness in each of us - and we aim to be the best at what we do. We recognize the value in offering active invitations, not just open doors, and are committed to leading and learning alongside our community members to build a strong and inclusive community over time. For more details, visit https://rec.mcmaster.ca/welcome-mcmaster-athletics-recreation."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "What payment methods are accepted by the university?",
+                "Tell me about the accepted payment options.",
+                "What forms of payment can I use for university transactions?",
+                "Payment methods"
+            ],
+            "responses": [
+                "Before making your payment, please review your account balance in your Mosaic Student Center for up-to-date balances. The university accepts various payment methods, including credit/debit cards, bank transfers, and sometimes electronic wallets. Please note: McMaster University does not accept cash or cheque payments. Payment methods vary based on if you're a Canadian or international student. For more details, visit https://registrar.mcmaster.ca/payment-methods/."
+            ]
+        },
+        {
+            "tag": "tuition_payment",
+            "patterns": [
+                "How do I make a payment for tuition?",
+                "Tell me about the process of paying tuition fees.",
+                "What steps do I need to follow to make a tuition payment?",
+                "Tuition payment"
+            ],
+            "responses": [
+                "To make a tuition payment, log in to your student portal and navigate to the financial services or billing section. Follow the instructions to view your balance and make a payment using the available options, such as credit card or bank transfer. For more details, visit https://registrar.mcmaster.ca/aid-awards/paying-your-tuition/."
+            ]
+        },
+        {
+            "tag": "payment_deadlines",
+            "patterns": [
+                "When are the payment deadlines for tuition?",
+                "Tell me about the deadlines for fee payments.",
+                "What is the schedule for tuition payment deadlines?",
+                "Payment deadlines"
+            ],
+            "responses": [
+                "Payment deadlines for tuition vary from year to year and are typically specified in the academic calendar. It is crucial to adhere to these deadlines to avoid late fees or registration holds. For more details, visit https://registrar.mcmaster.ca//dates-and-deadlines/#tab-40."
+            ]
+        },
+        {
+            "tag": "late_payment_penalty",
+            "patterns": [
+                "Is there a penalty for late tuition payments?",
+                "Tell me about the consequences of missing a payment deadline.",
+                "What happens if I make a late payment for tuition?",
+                "Late payment",
+                "Late payment penalty"
+            ],
+            "responses": [
+                "Late tuition payments may result in penalties or late fees. It is important to make payments on time to avoid any negative consequences for your enrollment or academic standing. As of November 2023, a $75 late fee is charged once per-term (on last day of the month) on all student accounts not paid in full by the payment due dates. Interest is charged at a monthly rate of 1.2% (compounded to 14.4% annually) on any unpaid balance due, on the second-to-last business day of each month, beginning September and ongoing until paid in full. For the most up-to-date information and more details, visit https://registrar.mcmaster.ca//dates-and-deadlines/#tab-40"
+            ]
+        },
+        {
+            "tag": "payment_confirmation",
+            "patterns": [
+                "How can I confirm that my payment was successful?",
+                "Tell me about receiving confirmation for my tuition payment.",
+                "Is there a way to verify that my payment went through?",
+                "Payment confirmation",
+                "Successful payment"
+            ],
+            "responses": [
+                "Upon successful payment, you should receive a confirmation email or notification. Additionally, you can check your student portal or contact the university's financial services office to confirm that your tuition payment has been processed. If you experience a delay in receiving a payment confirmation, check your spam or junk folder in your email. If the issue persists, contact the financial services office for assistance. They can verify the status of your payment and provide any necessary documentation."
+            ]
+        },
+        {
+            "tag": "scholarship_disbursement",
+            "patterns": [
+                "When and how are scholarship funds disbursed?",
+                "Tell me about the disbursement process for scholarships.",
+                "What is the timeline for receiving scholarship funds?",
+                "Scholarship disbursement"
+            ],
+            "responses": [
+                "Scholarship disbursement timelines vary, and the funds are often applied directly to your student account. Check with the scholarship office or financial aid department for information on when and how scholarship funds will be disbursed. For details on common scholarships (OSAP, bursary, etc.), visit https://registrar.mcmaster.ca/dates-and-deadlines/#tab-30"
+            ]
+        },
+        {
+            "tag": "payment_plan_options",
+            "patterns": [
+                "Are there payment plans available for tuition?",
+                "Tell me about installment options for paying tuition.",
+                "What are the payment plan choices for university fees?",
+                "Payment plan",
+                "Payment plan options"
+            ],
+            "responses": [
+                "McMaster has created a 2 payment options for students. Students have the option of paying in full or via a payment plan. Before selecting the payment option that is best for you, please review McMaster's payment deadlines.\n\nOption 1: Pay in full\nFull payment is due by the 25th of the first month of each term (September, January, May). Full payment needs to be received by the due dates for each term in order to avoid monthly interest charges or late payment fees. Please note: additional fees and fines may be added to your student account at any time during the term, i.e. library fines, missed appointments, replaced ID cards, etc. Regularly review your Account Summary on Mosaic to ensure all charges are as expected, all payments made to the school have been received and all balances are paid in full before the start of the next term.\n\nOption 2: Payment plan\nThe university’s payment deadlines will remain, however, you can now choose to pay your fees in four monthly payments per term. The plan enrolment dates vary from semester to semester. Even if you have already enrolled in a current term’s payment plan, you will still need to re-apply for the payment plan option for the next term during those dates. For the most up-to-date information, visit https://registrar.mcmaster.ca/payment-plan/#tab-10\n\nFor more details, visit https://registrar.mcmaster.ca/payment-plan/."
+            ]
+        },
+        {
+            "tag": "refund_process",
+            "patterns": [
+                "How does the refund process work?",
+                "Tell me about getting a refund for overpaid fees.",
+                "What are the steps for requesting a refund?",
+                "Refund process"
+            ],
+            "responses": [
+                "If you find yourself with a credit (negative balance) on your student account, McMaster will first verify, then refund the credit. Refunds are generally processed after the winter term drop/add period is over and all courses finalized. There are certain circumstances where McMaster would accept a refund request mid-session (e.g. a withdraw, over-payment in error, etc.). Credits for dropped/cancelled courses and over-payments are first applied against other debt owed to the university (other miscellaneous charges appearing on the account). The refund process typically involves submitting a refund request to the financial services office. Once the refund is processed, we will work with you to coordinate your refund. For more details, visit https://registrar.mcmaster.ca/refunds/."
+            ]
+        },
+        {
+            "tag": "payment_assistance",
+            "patterns": [
+                "Is there financial assistance available for payment?",
+                "Tell me about options for financial aid with payments.",
+                "Are there resources to help with tuition payment?",
+                "Payment assistance"
+            ],
+            "responses": [
+                "If you're facing financial challenges, consider reaching out to the financial aid office. They can provide information on available assistance programs, payment plans, or potential solutions to help you manage your tuition payments."
+            ]
+        },
+        {
+            "tag": "payment_receipt",
+            "patterns": [
+                "How can I obtain a receipt for my payment?",
+                "Tell me about receiving a payment confirmation or receipt.",
+                "Is there a way to download a receipt for my tuition payment?",
+                "Payment receipt",
+                "Payment verification"
+            ],
+            "responses": [
+                "After your tuition fee payment has been submitted, it takes approximately 7-10 business days for the payment to reflect on Mosaic under 'Finances'. You can request your payment verification letter in Mosaic under Student Center > Admissions > View letters > Payment confirmation, once both your offer of admission and payment has been processed. The name shown on your letter will be the same as you have it in Mosaic. You will receive a notification email when the payment confirmation letter is available. Requests are processed once per day at 7 p.m. For more details, visit https://registrar.mcmaster.ca/international-students/payment-verification/."
+            ]
+        },
+        {
+            "tag": "payment_installments",
+            "patterns": [
+                "Can I pay my tuition in multiple installments?",
+                "Tell me about installment options for tuition payments.",
+                "What are the choices for paying tuition in installments?",
+                "Payment installments"
+            ],
+            "responses": [
+                "The university's payment deadlines will remain, however, you can now choose to pay your fees in four monthly payments per term. Even if you have already enrolled in a current term's payment plan, you will still need to re-apply for the payment plan option for the next term during those dates. To be eligible, current students must have no prior balance owing from a previous term.\n\nTo enrol, follow these steps:\n1. Log in to Mosaic > Student Centre > Finances > Other financial > Payment plans.\n2. Select the fall term payment plan to continue.\n3. Review the instalments.\n4. Go through the agreement and accept the terms and conditions.\n5. Receive your confirmation.\n6. You can go back and review your instalments through Student Centre > Finances > Account Inquiry.\n\nFor more details, visit https://registrar.mcmaster.ca/payment-plan/#tab-10."
+            ]
+        },
+        {
+            "tag": "international_payment",
+            "patterns": [
+                "How can international students make tuition payments?",
+                "Tell me about payment options for international students.",
+                "What are the methods of paying tuition for international students?",
+                "International payments"
+            ],
+            "responses": [
+                "Bank-to-bank wire transfer payment to the University will result in an additional $100 processing charge on your student account. Please make your payments through the following International payment providers:\n\n1. Enrollment deposit: International students required to pay the $1,000 enrollment deposit, may do so 3 to 5 days after accepting an offer of admission on OUAC. The deposit step will display in the Mosaic Student Centre once the offer acceptance response is received at McMaster from OUAC.\n\n2. Early payment: If you are an international student that needs to pay your tuition prior to enrolment, you can make a payment to McMaster by calculating your fees. Payments can be done through CIBC International Student Pay web portal or Convera - McMaster student platform. Please make sure you only submit early payment after you have accepted your McMaster offer and have your Mac ID and student number.\n\n3. CIBC International Student Pay: Send payments on the CIBC International Student Pay platform via bank wires, credit card (Visa/MasterCard), debit cards, ACH and China Union Pay.\n    Step 1: Go to CIBC International Student Pay web portal or select the “Make a Payment” button from your Student Center.\n    Step 2: Fill in the details\n    Step 3: Payment options. You can make a payment using Bank Wire, Visa, MasterCard, China UnionPay, ACH (Direct Debit), and two new payment methods to further support the acceptance of payments from China: Local Bank Transfer and Alipay & Wechat eWallets. Scroll through payment options and select the one that best fits your criteria.\n    Step 4: Finalize and track your payment. You can track your payment anytime by selecting 'track your payments' on the CIBC International Student Pay portal.\n\n4. Convera (formally Western Union):\n    Step 1: Select your platform. Go to Convera - McMaster student platform or select the “Make a Payment” button from your Student Center.\n    Step 2: Enter details. Select the country you are paying from and enter the details about your payment. Select your preferred payment method. Enter your student details and confirm who is making the payment.\n    Step 3: Make and track a payment. Complete your student payment transaction online, via bank transfer, or in-person. Track your payment by entering your 'Payment Reference Number.' at https://students.convera.com/#!/tracking\n\n5. PayMyTuition:\n    Step 1: Log into your McMaster Mosaic\n    Step 2: From the “Finances” section in the Student Center, select “Make a Payment.”\n    Step 3: Input your payment amount in the “What I Owe” section and click Next.”\n    Step 4: From the “International Payment Methods” section, select “PayMyTuition” and then “Continue to Make Payment” to be redirected to the PayMyTuition portal."
+            ]
+        },
+        {
+            "tag": "payment_security",
+            "patterns": [
+                "How is the security of online payments ensured?",
+                "Tell me about the security measures for online transactions.",
+                "What steps are taken to secure online payments?",
+                "Payment security"
+            ],
+            "responses": [
+                "The university employs secure payment gateways and encryption protocols to ensure the security of online transactions. Your financial information is treated with confidentiality. Check the university's website or contact the IT department for information on payment security measures."
+            ]
+        },
+        {
+            "tag": "third_party_payments",
+            "patterns": [
+                "Can someone else make a payment on my behalf?",
+                "Tell me about third-party payments for tuition.",
+                "Is there a process for someone else to pay my university fees?",
+                "Third party payments"
+            ],
+            "responses": [
+                "McMaster offers third-party payments. Ensure that the payer has the necessary details, such as your student ID and payment information. Check with the financial services office for specific instructions on facilitating third-party payments."
+            ]
+        },
+        {
+            "tag": "payment_errors",
+            "patterns": [
+                "What should I do if there is an error in my payment?",
+                "Tell me about addressing errors in tuition payments.",
+                "Is there a process for correcting payment mistakes?",
+                "Payment errors"
+            ],
+            "responses": [
+                "If you encounter an error in your payment, contact the financial services office immediately. Provide details about the error, and they will guide you through the process of correcting any mistakes in your payment transactions."
+            ]
+        },
+        {
+            "tag": "payment_taxes",
+            "patterns": [
+                "Are tuition payments subject to taxes?",
+                "Tell me about tax implications for university payments.",
+                "Do I need to consider taxes when making tuition payments?",
+                "Payment taxes"
+            ],
+            "responses": [
+                "Tuition payments may have tax implications, and it's advisable to consult with a tax professional for personalized advice. Some education-related expenses may be eligible for tax deductions or credits. Check the university's financial services office for general information on tax considerations for tuition payments."
+            ]
+        },
+        {
+            "tag": "convocation_info",
+            "patterns": [
+                "Tell me about convocation at our university.",
+                "What is convocation all about?",
+                "Give me information on university convocation.",
+                "Convocation info"
+            ],
+            "responses": [
+                "Convocation is a ceremonial event where graduates receive their degrees. It's a celebration of academic achievements and marks the completion of your university journey. Details and dates vary by graduation date. For more details, visit https://registrar.mcmaster.ca/grad/details/."
+            ]
+        },
+        {
+            "tag": "convocation_schedule",
+            "patterns": [
+                "When is the next convocation?",
+                "Can you provide the schedule for convocation?",
+                "Tell me the dates for the upcoming convocation ceremonies.",
+                "Convocation schedule"
+            ],
+            "responses": [
+                "The schedule, venue and details for convocation can vary each year. For more details, visit https://registrar.mcmaster.ca/grad/details/."
+            ]
+        },
+        {
+            "tag": "convocation_registration",
+            "patterns": [
+                "How do I register for convocation?",
+                "What is the process for convocation registration?",
+                "Tell me about convocation sign-up.",
+                "Convocation registration"
+            ],
+            "responses": [
+                "To register for convocation, log in to your student portal and follow the instructions for convocation registration. Make sure to complete the process within the specified deadline to secure your spot in the ceremony."
+            ]
+        },
+        {
+            "tag": "convocation_guests",
+            "patterns": [
+                "Can I bring guests to the convocation ceremony?",
+                "How many guests can I invite to convocation?",
+                "Tell me about bringing family to convocation.",
+                "Convocation guests"
+            ],
+            "responses": [
+                "You can typically bring guests to the convocation ceremony. The convocation guidelines vary from year to year; the number of guests allowed, admission into the event, and other details. For more details, visit https://registrar.mcmaster.ca/grad/details/"
+            ]
+        },
+        {
+            "tag": "convocation_attire",
+            "patterns": [
+                "What should I wear for convocation?",
+                "Is there a dress code for convocation?",
+                "Tell me about the attire for the convocation ceremony.",
+                "Convocation attire"
+            ],
+            "responses": [
+                "At convocation, all McMaster graduands (undergraduate, Master's and PhD) will be provided with the appropriate regalia (gowns, hoods, graduate caps). These are to be returned after the ceremony. If you would like to purchase your own regalia to keep, please visit the Campus Store website. McMaster is committed to promoting an environment of respect and collegiality that honours the rich diversity of our campus community. We fully support and encourage the inclusion and addition of culturally specific apparel during celebrations.\nMany students choose to dress up for the special occasion. Dress like your best self, but most importantly, be comfortable as ceremonies are approximately two hours. There is a staffed coat check for graduands. It is at your discretion to keep your valuables with you, with your guests or with our coat check."
+            ]
+        },
+        {
+            "tag": "convocation_photos",
+            "patterns": [
+                "Can I take photos during convocation?",
+                "Are professional photographers available at convocation?",
+                "Tell me about capturing memories at convocation.",
+                "Convocation photos"
+            ],
+            "responses": [
+                "When you attend convocation, you enter an area where photography, audio, and video recording may occur. When you register to attend, you consent to such recording media and its release, publication, exhibition or reproduction. Some of the photos of the overall event taken at convocation will be available on McMaster's Flickr account a few weeks following your ceremony. For your specific portrait taken after you crossed the stage, GradImages sends an email within two weeks of your graduation date. If you did not receive this email, please visit the Grad Images website."
+            ]
+        },
+        {
+            "tag": "convocation_certificate",
+            "patterns": [
+                "How do I receive my degree certificate at convocation?",
+                "Tell me about collecting my diploma at convocation.",
+                "What is the process for receiving my certificate during convocation?",
+                "Convocation certificate"
+            ],
+            "responses": [
+                "Diploma pick-up will be available after the ceremony. You must return all regalia no later than one hour after your ceremony in exchange for your diploma, so if you would like photos in your regalia, make sure to do so before picking up your diploma. Regalia are not allowed outside the main doors but there is a patio that is accessible from the mezzanine level if you would like to take photos outside."
+            ]
+        },
+        {
+            "tag": "convocation_speech",
+            "patterns": [
+                "Who gives the convocation speech?",
+                "Tell me about the speakers at convocation.",
+                "Is there a keynote speaker for convocation?",
+                "Convocation speech"
+            ],
+            "responses": [
+                "Convocation speeches may include remarks from university officials, faculty members, and sometimes a keynote speaker. Check the convocation program for details on who will be speaking during the ceremony."
+            ]
+        },
+        {
+            "tag": "convocation_live_stream",
+            "patterns": [
+                "Can I watch the convocation ceremony online?",
+                "Is there a live stream for convocation?",
+                "Tell me about virtual attendance for convocation.",
+                "Convocation live stream"
+            ],
+            "responses": [
+                "We offer a live stream of the convocation ceremony for those unable to attend in person. Check the university website https://registrar.mcmaster.ca/grad/details/ or contact the IT department for information on virtual attendance options. To view the live stream, visit https://registrar.mcmaster.ca/grad/webcast/."
+            ]
+        },
+        {
+            "tag": "convocation_afterparty",
+            "patterns": [
+                "Is there an afterparty or celebration after convocation?",
+                "Tell me about post-convocation events.",
+                "What happens after the convocation ceremony?",
+                "Convocation afterparty"
+            ],
+            "responses": [
+                "We host post-convocation events or celebrations. This may vary from year to year. For the most up-to-date information, visit https://registrar.mcmaster.ca/grad/details/.There are additional celebrations, hosted by each faculty, which can be found at https://registrar.mcmaster.ca/grad/details/#tab-30."
+            ]
+        },
+        {
+            "tag": "convocation_location",
+            "patterns": [
+                "Where does the convocation ceremony take place?",
+                "Tell me about the venue for convocation.",
+                "What is the location of the convocation ceremony?",
+                "Convocation location"
+            ],
+            "responses": [
+                "Convocation ceremonies are usually held at a designated venue. This may vary from year to year. For the most up-to-date information, visit https://registrar.mcmaster.ca/grad/details/."
+            ]
+        },
+        {
+            "tag": "convocation_awards",
+            "patterns": [
+                "Are there awards presented during convocation?",
+                "Tell me about academic awards at convocation.",
+                "Do graduates receive honors during the convocation ceremony?",
+                "Convocation awards"
+            ],
+            "responses": [
+                "Convocation ceremonies may include the presentation of academic awards or honors to outstanding graduates. There are additional monetary awards that can be applied to in AwardSpring. For more details, visit https://registrar.mcmaster.ca/grad/details/#tab-70."
+            ]
+        },
+        {
+            "tag": "covid_19_info",
+            "patterns": ["What is COVID-19?", "Tell me about COVID-19", "What is the coronavirus?"],
+            "responses": [
+                "COVID-19, short for 'coronavirus disease 2019,' is an infectious disease caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). It was first identified in December 2019, and quickly spread globally, leading to a pandemic declaration by the World Health Organization in March 2020."
+            ]
+        },
+        {
+            "tag": "covid_19_symptoms",
+            "patterns": [
+                "What are the symptoms of COVID-19?",
+                "Tell me about COVID-19 symptoms",
+                "COVID-19 symptoms"
+            ],
+            "responses": [
+                "COVID-19 symptoms can vary but commonly include:\n1. Fever or chills\n2. Cough\n3. Shortness of breath or difficulty breathing\n4. Fatigue\n5. Muscle or body aches\n6. Headache\n7. Loss of taste or smell\n8. Sore throat\n9. Congestion or runny nose\n10. Nausea or vomiting\n11. Diarrhea\n\nIt's important to note that symptoms may range from mild to severe and can appear 2-14 days after exposure to the virus."
+            ]
+        },
+        {
+            "tag": "testing",
+            "patterns": [
+                "How does COVID-19 testing work?",
+                "Tell me about COVID-19 testing",
+                "COVID-19 testing"
+            ],
+            "responses": [
+                "COVID-19 testing involves various methods:\n1. **PCR Test:** This molecular test detects the virus's genetic material and is considered highly accurate.\n2. **Rapid Antigen Test:** This test identifies specific proteins on the virus's surface and provides quicker results, although it may be less sensitive. Testing helps identify infected individuals, including those without symptoms, allowing for isolation and prevention of further spread."
+            ]
+        },
+        {
+            "tag": "prevention",
+            "patterns": [
+                "How can I protect myself from COVID-19?",
+                "Tell me about COVID-19 prevention",
+                "COVID-19 prevention"
+            ],
+            "responses": [
+                "To protect yourself from COVID-19:\n1. **Vaccination:** Get vaccinated to reduce the risk of severe illness and transmission.\n2. **Wear Masks:** Use masks, especially in crowded or indoor settings.\n3. **Hand Hygiene:** Wash hands frequently with soap and water or use hand sanitizer.\n4. **Physical Distancing:** Maintain at least 6 feet of distance from others, especially those outside your household.\n5. **Stay Informed:** Follow guidelines from health authorities for the latest recommendations."
+            ]
+        },
+        {
+            "tag": "vaccine",
+            "patterns": [
+                "Tell me about the COVID-19 vaccine",
+                "How does the COVID-19 vaccine work?",
+                "What is the COVID-19 vaccine?",
+                "COVID-19 vaccine"
+            ],
+            "responses": [
+                "The COVID-19 vaccine is designed to stimulate the immune system, preparing it to recognize and fight the virus. There are a few types of vaccines:\n1. **mRNA Vaccines:** Pfizer-BioNTech and Moderna use messenger RNA to instruct cells to produce a harmless piece of the virus's spike protein, triggering an immune response.\n2. **Viral Vector Vaccines:** AstraZeneca and Johnson & Johnson use a different virus (not the coronavirus) to deliver genetic material, instructing cells to produce the spike protein.\n\nVaccination is a critical tool in preventing severe illness, hospitalization, and controlling the spread of the virus."
+            ]
+        },
+        {
+            "tag": "citizenship_update",
+            "patterns": [
+                "Tell me how to update my citizenship",
+                "How do I update my citizenship?",
+                "Citizenship Update",
+                "Update citizenship information",
+                "McMaster citizenship status change"
+            ],
+            "responses": [
+                "If you have had a change in your personal citizenship status in Canada, you should update this information with McMaster by completing a Citizenship Status Change. To request a citizenship status update:\n1. Complete and save the Request for a Citizenship Status Update form (https://registrar.mcmaster.ca/wp-content/uploads/2023/02/Citizenship-status-update.pdf) to your computer. Digital signatures are accepted.\n2. Log in to your Mosaic Student Center. Select 'other academics' and choose Service Requests from the dropdown menu, then 'Create New Request'. Please select “Mosaic Citizenship Status Change” in Service Request Type.\n3. Attach the form and any supporting documents to your service request.\n4. Return to the Service Request page to monitor updates.\n\nPlease note: This update is reflected only within McMaster's internal systems. This does not update your citizenship status elsewhere (such as with Service Canada or OSAP). Citizenship changes for students in graduate programs are reviewed and processed by the School of Graduate Studies."
+            ]
+        },
+        {
+            "tag": "citizenship_deadlines",
+            "patterns": [
+                "Tell me about the citizenship update deadlines",
+                "When are the citizenship update deadlines?",
+                "Citizenship update deadlines",
+                "McMaster citizenship change deadlines"
+            ],
+            "responses": [
+                "Stay informed about the deadlines associated with citizenship updates at McMaster University. There are deadlines to submit citizenship change in every study term, which vary from year to year. For more details, visit https://registrar.mcmaster.ca/services/citizenship-update/#tab-10."
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "How long do payments take to show up on Mosaic?",
+                "How come my payment isn't showing up on Mosaic?",
+                "I paid my fees but it isn't reflected on Mosaic",
+                "Why is the transaction taking so long?",
+                "Mosaic payment"
+            ],
+            "responses": [
+                "Payments made through online banking take 2-3 days to be applied to your account. To confirm the funds have reached your account, please access the account summary through your Mosaic Student Centre."
+            ]
+        },
+        {
+            "tag": "account_summary",
+            "patterns": [
+                "Why did my account summary change?",
+                "How come my account summary has changed since?",
+                "Can you explain why my account balance and transactions have differed from what was shown on Mosaic?",
+                "Can you tell me what my current balance and transactions look like?",
+                "Account summary"
+            ],
+            "responses": [
+                "Follow these five steps to access your Account Summary:\n1. Log in to Mosaic using your MAC ID and password.\n2. Click on “Student Center.”\n3. Under the “Finance” section, select “Account Summary.”\n4. Click the “Academic Year” drop down list and select a year. Once you have selected a year, click on the “go” button (blue circle with two arrows).\n4. Once the page is loaded, you will be able to view your tuition and charges for that specific academic year.\n\nYour account summary will change throughout the year for various reasons. Some reasons are: \n- Changed course load/selections\n- Granted awards or scholarships\n- Changed OSAP entitlement"
+            ]
+        },
+        {
+            "tag": "overpaid",
+            "patterns": [
+                "What happens if I overpaid?",
+                "I accidentally overpaid tuition",
+                "Overpay tuition"
+            ],
+            "responses": [
+                "If your account has been overpaid, wait until the funds have been received by McMaster and a credit appears on your student account.\n\t-Email refunds@mcmaster.ca for the credit amount to be refunded to you via e-transfer."
+            ]
+        },
+        {
+            "tag": "e-transfer",
+            "patterns": [
+                "I received an email in my McMaster email that I have an e-transfer from McMaster University. How do I know if this is legitimate?",
+                "Is there an e-transfer option available?",
+                "Do you have any plans to implement electronic transfer of funds?",
+                "Are there any other options besides paper checks or cash?"
+            ],
+            "responses": [
+                "McMaster is now sending bursary funding and refunds directly to students via e-transfer. Please refer to your student account for details of the amount of oney that should have been sent to you. Your refund amount will appear on your student account as AP Refund"
+            ]
+        },
+        {
+            "tag": "balance_correct",
+            "patterns": [
+                "How can I make sure my account balance is correct?",
+                "How do I know if I'm being charged the right amount?",
+                "Can I verify my current account balance on your website?"
+            ],
+            "responses": [
+                "In order to ensure that your account is correct, please refer to all the available screens on Mosaic. For more details, visit https://registrar.mcmaster.ca/events/how-to-read-your-account-summary/."
+            ]
+        },
+        {
+            "tag": "tuition",
+            "patterns": [
+                "Why can I only pay a certain amount of my tuition at one time?",
+                "I tried to pay my balance earlier today and it said I was only able to pay $ today, why?",
+                "What are the maximum and minimum amounts I can pay in one transaction?",
+                "I want to pay more than what is listed as the maximum. Can I still pay online?"
+            ],
+            "responses": [
+                "Some banks have a daily transaction limit which prevent bill payments that exceed a certain amount. You will need to either speak with your bank about increasing your daily limit, or you will need to make partial payments over a few days"
+            ]
+        },
+        {
+            "tag": "government_aid_outside_ontario",
+            "patterns": [
+                "What if I'm not from Ontario",
+                "I'm not from Ontario, what government aid options do I have?",
+                "Are there government aid programs for students outside of Ontario?",
+                "What should I do if I'm not from Ontario?",
+                "Are there government aid programs for students in provinces or territories outside of Ontario?",
+                "I'm from another province, what government aid is available for me?"
+            ],
+            "responses": [
+                "Apply for OSAP if Ontario is the last Canadian province that you have resided in for at least 12 consecutive months without being a full-time post-secondary (college or university) student (i.e. prior to starting post-secondary studies) and you meet all other eligibility criteria. Denied by your province? Please visit Student Services at https://registrar.mcmaster.ca/#contactinformation. To be eligible, your province will determine all eligibility criteria and assess your entitlement. If you are an international student, you are not eligible for OSAP but we encourage you to look into any loan/grant programs available through your home country. U.S. citizens are not eligible for OSAP. If you are a dual Canadian/American citizen, you may be eligible for student loans through your home province, except for Ontario. For more details, visit https://registrar.mcmaster.ca/aid-awards/osap-government-aid/#tab-50."
+            ]
+        },
+        {
+            "tag": "US_student",
+            "patterns": [
+                "What if I'm a US student?",
+                "How can US students access financial aid?",
+                "Are there funding options for students from the United States?",
+                "Are there specific financial aid options for U.S. students?",
+                "Can students from the United States access government student loans?",
+                "What funding opportunities are available for U.S. students?"
+            ],
+            "responses": [
+                "U.S. students can apply for government student loans through the U.S. Department of Education's William D. Ford Federal Direct Loan Program. U.S. students can apply for U.S. government aid or private loans to help fund their education at McMaster. The following loans are available through the William D. Ford Federal Direct Loan Program: direct subsidized loans, direct unsubsidized loans, direct PLUS grad loans, direct PLUS parent loans. For more details, visit https://registrar.mcmaster.ca/funding-for-u-s-students/."
+            ]
+        },
+        {
+            "tag": "macid_details",
+            "patterns": [
+                "What is a MacID?",
+                "Could you explain what a MacID is?",
+                "What does the term MacID refer to?",
+                "Can you provide a definition or description of a MacID?",
+                "What exactly is meant by the term MacID?"
+            ],
+            "responses": [
+                "A MacID is a unique, alphanumeric identifier provided to all McMaster community members to access university systems, resources and applications. Additional permissions may be required for some services. Your MacID is not your employee or student number.\nAll students, alumni, applicants, faculty members, staff, POIs and retirees can use it for free. Users automatically receive a MacID when their relationship to the university has been identified. MacID is used to authenticate services, such as: Mosaic, MacDrive, Avenue to Learn and various others. The service is available 24/7."
+            ]
+        },
+        {
+            "tag": "macid_activation",
+            "patterns": [
+                "How can I activate my Mac ID?",
+                "Can you guide me through the process of activating my Mac ID?",
+                "In what way may I proceed with the activation of my Mac ID?",
+                "Could someone please help me with the procedure for activating my Mac ID?",
+                "MacID activation"
+            ],
+            "responses": [
+                "Follow these steps to activate your MacID:\n1. Your MacID can be activated at https://maciam.mcmaster.ca.\n2. Click on 'Need help' with your MacID (above the LOGIN button).\n3. Select the option 'I Want to Activate My MacID' and follow the prompts"
+            ]
+        },
+        {
+            "tag": "macid_not_working",
+            "patterns": [
+                "My password is not working",
+                "I can't remember my MacID",
+                "The Mac ID login isn't working anymore.",
+                "Why won't my Mac ID work now?",
+                "Is it possible to reset my Mac ID if I forget my password?",
+                "My MacID is not working",
+                "My MacID has problems"
+            ],
+            "responses": [
+                "Please visit our account management page at https://uts.mcmaster.ca/services/accounts-and-passwords/password-management/.\nIf you have any issues or questions regarding your MacID, visit https://uts.mcmaster.ca/services/accounts-and-passwords/macid/."
+            ]
+        },
+        {
+            "tag": "macid_email",
+            "patterns": [
+                "Why do I need to provide an external email account for MacID?",
+                "Do I really need to give up my email address for MacID?",
+                "Can you explain why I must enter an alternative email address for activating my MacID?"
+            ],
+            "responses": [
+                "An external email is mandatory for activation. When you activate your MacID, a temporary password will be sent to your external email account."
+            ]
+        },
+        {
+            "tag": "international_fee_exemption",
+            "patterns": [
+                "Who is exempt from international fees?",
+                "What are the exceptions to international fees?",
+                "Are there any exceptions for international fees?",
+                "Tell me about the exceptions for international fees"
+            ],
+            "responses": [
+                "In accordance with the 2009-2010 Ontario Operating Funds Distribution Manual (https://registrar.mcmaster.ca/wp-content/uploads/2023/10/THE-ONTARIO-OPERATING-FUNDS-DISTRIBUTION-MANUAL.pdf, page 51), international students who fall within one of the following categories may be eligible to pay domestic fees:\n- Dependents of Canadian Citizens/ First Nations Peoples\n- Dependents of Permanent Residents\n- A visitor with a work permit and dependents (definitions tab, page 9)\n- A visitor with diplomatic status and dependents\n- Religious workers (work permit exempt) and dependents\n- Protected Persons and Dependents\n\nPlease note: If you are no longer an international student and are updating your own citizenship, visit https://registrar.mcmaster.ca/services/citizenship-update/."
+            ]
+        },
+        {
+            "tag": "apply_international_fee_exemption",
+            "patterns": [
+                "How do I apply for an international fee exemption status?",
+                "Could you guide me through the application procedure for obtaining an international fee exemption status?",
+                "What steps do I need to take to request an exemption from international fees?",
+                "How can I initiate the application for an international fee exemption status?",
+                "What is the method or protocol for applying to be exempt from international fees?",
+                "Tell me how to apply to be exempt from international fees"
+            ],
+            "responses": [
+                "If you are an undergraduate international student who fits into one of the categories above, you may apply for an international fee exemption by reporting your status and providing supporting documentation through a Mosaic Service Request. Supporting documentation must be received before the deadlines listed on this page. Exceptions to deadlines will not be permitted.\n1. Complete and save the International Fee Exemption form your computer. Digital signatures are accepted.\n2. Log in to your Mosaic Student Center. Select 'other academics' and choose Service Requests from the dropdown menu, then 'Create New Request'. Please select “International Fee Exemption” in Service Request type.\n3. Attach the International Fee Exemption form and any supporting documents to your service request. Please combine supporting documentation into one file.\n4. Return to the Service Request page to monitor updates.\n\nIf you are a graduate student, your request must go through the School of Graduate Studies."
+            ]
+        },
+        {
+            "tag": "renew_international_fee_exemption",
+            "patterns": [
+                "Do I need to renew my international fee exemption status every year?",
+                "Is it necessary to reapply annually for my international fee exception?",
+                "Must I repeat the process of obtaining an international fee exception each year?",
+                "Do I need to renew my international fee exemption?"
+            ],
+            "responses": [
+                "You are responsible for alerting the Registrar's Office if the basis for your international fee exemption has changed. Should your international fee exemption status change mid-way through one of the study periods, you must obtain an extension prior to the beginning of your next study period. Failure to do so will result in a return to international fees in all future study periods. You may also be required to prove your status at the request of the University any time during your studies.\n\nNote: If your exemption status has changed as a result of circumstances beyond your control (e.g., you are the dependent of a diplomat whose parent is reassigned to another country), you may be able to continue your studies with an international fee exemption status until the completion of your program. This extension will not apply to future programs or degrees following the completion of your current program or degree. Please contact Student Services if you have any questions."
+            ]
+        },
+        {
+            "tag": "indigenous_band_funding",
+            "patterns": [
+                "Does band funding affect the amount of OSAP I will receive?",
+                "If I receive financial assistance from my Indigenous band, will it affect my OSAP application?",
+                "Can I still apply for OSAP if I receive funding from the Post-Secondary Student Support Program (PSSSP) through my band?",
+                "Is the funding I receive from my Indigenous band considered when calculating my OSAP entitlement?",
+                "Do I need to report scholarships or bursaries to OSAP if I'm already receiving funding from my Indigenous band?",
+                "Is there any interaction between Indigenous band funding and government student loans like OSAP?",
+                "If I have additional financial support from my band, does that impact my eligibility for other student aid programs?",
+                "Tell me about indigenous band funding"
+            ],
+            "responses": [
+                "Indigenous students do not have to declare funding they receive from PSSSP on their OSAP application. Additionally, scholarships and bursaries will not affect your PSSSP or OSAP entitlement."
+            ]
+        },
+        {
+            "tag": "scholarship_deadline",
+            "patterns": [
+                "When is the deadline to apply for scholarships and bursaries?",
+                "What is the last date to submit applications for scholarships?",
+                "Are there specific deadlines for scholarship applications?",
+                "When do I need to apply for scholarships and bursaries?",
+                "Can you provide details on the scholarship application deadline?",
+                "Where can I find information about the deadlines for scholarship applications?",
+                "Is there a cutoff date for submitting scholarship applications?",
+                "Tell me the scholarship deadline"
+            ],
+            "responses": [
+                "Deadlines for scholarships and bursaries vary from year to year. For more details, visit https://registrar.mcmaster.ca/dates-and-deadlines/#tab-30."
+            ]
+        },
+        {
+            "tag": "scholarships_via_awardSpring_without_osap",
+            "patterns": [
+                "How do I apply for scholarships via AwardSpring if I don't have OSAP?",
+                "Can I still access scholarships via AwardSpring without having OSAP?",
+                "Is OSAP a requirement to apply for scholarships through AwardSpring?",
+                "What if I don't qualify for OSAP? Can I still apply for scholarships on AwardSpring?",
+                "Is OSAP mandatory for AwardSpring scholarships?",
+                "Do I have to be on OSAP to be eligible for scholarships through AwardSpring?",
+                "What if I choose not to apply for OSAP? Can I still apply for scholarships on AwardSpring?"
+            ],
+            "responses": [
+                "You do not need to receive OSAP to apply for scholarships via AwardSpring. To apply, you must first complete common application. You can then and find all the scholarships you are eligible for and apply individually for each."
+            ]
+        },
+        {
+            "tag": "indigenous_students_emergency_financial_support",
+            "patterns": [
+                "How can I get emergency financial assistance as an Indigenous student?",
+                "What steps should I take if I'm facing a financial crisis as an Indigenous student?",
+                "Where can I seek emergency financial support as an Indigenous student?",
+                "Is there a process for Indigenous students to request emergency financial assistance?",
+                "What resources are available for emergency financial support for Indigenous students?"
+            ],
+            "responses": [
+                "Indigenous students experiencing a financial emergency may visit Indigenous Student Services (L.R.W Hall, 1811) or contact Student Services to discuss and explore solutions."
+            ]
+        },
+        {
+            "tag": "aid_and_awards_for_black_students",
+            "patterns": [
+                "Is there any aid and/or awards for black students?",
+                "Are there specific financial aid opportunities for black students?",
+                "Where can I find information about scholarships for black students?",
+                "What financial support is available for black students?",
+                "Are there scholarships exclusively for black students?",
+                "Tell me about awards for black students"
+            ],
+            "responses": [
+                "McMaster offers several financial support options to incoming and current Black students as part of a commitment to address barriers to access. These opportunities are in addition to the general work programs, bursaries, scholarships and government student loan programs that all students who demonstrate academic excellence and/or financial need, may be eligible for. For more details, visit https://registrar.mcmaster.ca/aid-awards-for-black-students/."
+            ]
+        },
+        {
+            "tag": "automatically_considered_for_entrance_awards",
+            "patterns": [
+                "Am I automatically considered for all entrance awards?",
+                "Do I need to apply separately for entrance awards?",
+                "Is there an automatic consideration for all available entrance awards?",
+                "Are all entrance awards considered automatically based on my application?",
+                "Is there a separate process for automatic consideration of entrance awards?",
+                "Should I expect automatic consideration for all eligible entrance awards?",
+                "Tell me more about entrance awards"
+            ],
+            "responses": [
+                "Entrance awards are awards for incoming students based on merits like academics, community involvement or leadership. Most entrance awards are automatic but others require an application through McMaster's AwardSpring platform (available after you apply and get your MacID)."
+            ]
+        },
+        {
+            "tag": "apply_entrance_scholarship",
+            "patterns": [
+                "How can I apply for an entrance scholarship?",
+                "Tell me how to apply for an entrance scholarship",
+                "What is the process for an entrance scholarship?"
+            ],
+            "responses": [
+                "Applying for entrance awards is easy using McMaster's AwardSpring platform. It takes only three steps.\n\nStep 1: Activate your MacID and log in to AwardSpring\nActivate your MacID using the Barcode and Student ID Number in your acknowledgement letter. It may take a few business days for your profile to connect to AwardSpring after applying on OUAC and logging into Mosaic for the first time. Log in to AwardSpring using your MacID and password.\n\nStep 2: Fill out the General Application\nThe General Application on AwardSpring asks for important information to match you with awards for which you are eligible. We blanked out some sections that you do not need, so feel free to skip them.\n\nStep 3: Complete follow-ups to finish your award applications\nOnce you have submitted your General Application, you will find “Follow-Ups” on the Dashboard tab. Follow-ups are extra criteria like essays, referrals, etc. Complete the follow-ups for each award to apply for that award. In the Scholarships section, you can view all your submitted applications and any automatic awards. The Applied in AwardSpring status means that your application was received by the deadline and is eligible for further review.\n\nAfter you apply:\nMake sure you add “mcmaster.awardspring.ca” to your Safe Senders List on your McMaster email account. Regularly check your McMaster email account for feedback on your award applications. Successful applicants will be notified of an award offer via their McMaster email. An award offer depends on an offer(s) of admission and may have one or more award conditions attached (e.g. enrolment in a specific program). Award offers will be displayed in the Mosaic applicant portal."
+            ]
+        },
+        {
+            "tag": "eligible_for_more_than_one_entrance_award",
+            "patterns": [
+                "Am I eligible for more than one automatic entrance award?",
+                "Can I qualify for multiple automatic entrance awards?",
+                "Is it possible to receive more than one entrance award automatically?",
+                "Is there a chance to be eligible for multiple automatic entrance awards?",
+                "Can I receive both the McMaster University Award of Excellence and a Faculty-specific Achievement Award?",
+                "Are there restrictions on being eligible for more than one entrance award?"
+            ],
+            "responses": [
+                "Students can be eligible for either the McMaster University Award of Excellence or the Faculty-specific Achievement Award."
+            ]
+        },
+        {
+            "tag": "help_with_awardSpring",
+            "patterns": [
+                "Can I get help with AwardSpring?",
+                "Is there assistance available for navigating AwardSpring?",
+                "Where can I find guidance on using AwardSpring?",
+                "How can I receive assistance with AwardSpring?",
+                "Is there a resource for troubleshooting issues with AwardSpring?",
+                "Where should I go for help regarding AwardSpring?"
+            ],
+            "responses": [
+                "Our AwardSpring guide walks you through everything you need to know. The guide can be found at https://registrar.mcmaster.ca/awardspring-guide/."
+            ]
+        },
+        {
+            "tag": "offer_letter_award",
+            "patterns": [
+                "When will I know if there are any changes to my award offer?",
+                "Is there a specific timeline for updates to my award offer?",
+                "When can I expect information about changes to my award offer?",
+                "What is the timeframe for updates to my award offer?",
+                "When is the process for adjusting award offers usually completed?",
+                "Can I anticipate changes to my award offer at a specific time?"
+            ],
+            "responses": [
+                "Admission averages are re-calculated in August after the receipt of all final grades from OUAC. Awards are typically adjusted between the end of August to mid-September."
+            ]
+        },
+        {
+            "tag": "didnt_receive_scholarship_offer",
+            "patterns": [
+                "I didn't receive a scholarship offer, what are my options?",
+                "What should I do if I didn't get a scholarship offer?",
+                "Are there alternatives if I didn't receive a scholarship?",
+                "What steps can I take if I didn't get a scholarship offer?",
+                "Are there other opportunities if I wasn't offered a scholarship?",
+                "What are my alternatives if I didn't receive a scholarship?"
+            ],
+            "responses": [
+                "You still have options! Increasing your average to the automatic award cut-off will make you eligible for automatic awards. You can also apply for awards on AwardSpring and through external sources."
+            ]
+        },
+        {
+            "tag": "program_requirements",
+            "patterns": [
+                "Who can I talk to about program requirements?",
+                "What is the process for submitting a program requirement?",
+                "Is there someone available to discuss the program requirements with me?",
+                "Could you direct me to a person knowledgeable about the program's requirements?",
+                "I need assistance with understanding the program requirements. Can you connect me to someone who can help?",
+                "Program requirements"
+            ],
+            "responses": [
+                "To check and compare admission requirements for our undergraduate programs, visit https://future.mcmaster.ca/apply/requirements/. For Graduate admissions, visit the School of Graduate Studies at https://gs.mcmaster.ca/how-to-apply/."
+            ]
+        },
+        {
+            "tag": "program_office",
+            "patterns": [
+                "Where can I find the contact information for my program office?",
+                "How do I get in touch with the program office?",
+                "I need to reach out to the program office. Can you give me their details?",
+                "Where should I look to find the contact details for my program office?",
+                "What resources can I use to discover the contact information for my program office?"
+            ],
+            "responses": [
+                "You can find contacts for every graduate program on our website.",
+                "Our website houses contacts for each graduate program.",
+                "For contacts related to each graduate program, our website is the go-to resource."
+            ]
+        },
+        {
+            "tag": "admission_deadline",
+            "patterns": [
+                "What is the deadline to clear conditions of my admission?",
+                "When does the deadline for clearing conditions of admission occur?",
+                "Can I know when the deadline for clearing conditions of admission will be?",
+                "When are students expected to submit their transcripts and other documents?",
+                "When must I submit all required documents by?"
+            ],
+            "responses": [
+                "Condition Clearing deadlines:\nFall admission \u2013 December 1\nWinter admission \u2013 April 1\nSpring admission \u2013 August 1\nIf you have questions about the status of your condition clearing, please contact the graduate program office directly. Visit our website for a list of program contacts."
+            ]
+        },
+        {
+            "tag": "admission_documents",
+            "patterns": [
+                "Where do I send my Conditions Clearing documents?",
+                "Where is the designated location for sending my Conditions Clearing documents?",
+                "Could you guide me on where I need to send my Conditions Clearing documents?",
+                "Which address or email should I use to send my Conditions Clearing documents?",
+                "To which address should I send my Conditions Clearing documents?"
+            ],
+            "responses": [
+                "All documents required for admission or condition clearing must be submitted to the office of the program you have applied to or are joining. Please email a high-quality scan of the required document to the program\u2019s graduate administrator/officer, or program coordinator.You can find contacts for every graduate program on our website.\u00a0"
+            ]
+        },
+        {
+            "tag": "re_admission",
+            "patterns": [
+                "I would like to be re-admitted to my program. How do I do that?",
+                "I'd like to apply again for a degree from McMaster. What steps should I take?",
+                "I want to enroll as an undergraduate student at McMaster University. Please provide instructions.",
+                "I want to enroll in another program at McMaster University. When do I need to start applying?",
+                "I want to reapply for an undergraduate degree at McMaster University. Please tell me how to proceed."
+            ],
+            "responses": [
+                "Talk to your program and complete the Readmission form. After your request is submitted you can pay the readmission fee in your Mosaic Student Centre.Only after payment is received will a review/processing of your readmission request begin."
+            ]
+        },
+        {
+            "tag": "mac_email_id",
+            "patterns": [
+                "What do I do if I didn't receive an email with my Mac ID/Student #?",
+                "How do I get my Mac ID/Student #?",
+                "If I don't have access to my Mac ID/Student#, what should I do?",
+                "My Mac ID/Student# was not sent to me. Where can I find it now?",
+                "I haven't received my Mac ID/Student # yet. Can someone help me locate it?"
+            ],
+            "responses": [
+                "Once you apply on OUAC, you should receive an email shortly with information regarding your Mac ID and student number. If you have not received this email, please email us at thinkeng@mcmaster.ca with your full name, registered email, and OUAC reference number. We will then look into this for you!"
+            ]
+        },
+        {
+            "tag": "mac_ouac",
+            "patterns": [
+                "Does it matter how I rank McMaster on OUAC?",
+                "Is there any difference in ranking between different universities when applying to OUAC?",
+                "Do all applicants who are accepted by McMaster have equal chances of being admitted?",
+                "Are there any specific criteria or factors that influence the decision making process at McMaster when considering applications for admission?",
+                "Can I still apply even though I am ranked lower than other universities?"
+            ],
+            "responses": [
+                "Nope, it does not matter! We do not factor your OUAC program choice into our admissions decisions."
+            ]
+        },
+        {
+            "tag": "admission_supapp",
+            "patterns": [
+                "What do I need to know about the Supplementary Application?",
+                "When will the Supplementary Application deadline be?",
+                "Where is the Supplementary Application form located?",
+                "Are there any specific requirements or documents needed for the Supplementary Application?"
+            ],
+            "responses": [
+                "The mandatory supplementary application for our Faculty of Engineering programs involves a $50 fee, requiring submission before Friday, January 27th, 12:00 pm (noon) Eastern Time, comprising four questions (three video responses and one written response) to showcase applicants' personal projection, with specific response time limits and the opportunity for practice questions available through an email-invited supplementary application portal, and in case of issues, students can reach out to thinkeng@mcmaster.ca for email-related problems or contact KIRA at support@kiratalent.com for technical issues with the KIRA application."
+            ]
+        },
+        {
+            "tag": "admission_marks",
+            "patterns": [
+                "What marks do I need to get into the program I've applied for?",
+                "Which grades do I need to achieve to meet the admission criteria?",
+                "What are the minimum scores required for each subject area?",
+                "How does the marking system work?"
+            ],
+            "responses": [
+                "Please visit the admissions site for the most up-to-date information regarding admission requirements. Along with your admissions average, we also take your performance on the mandatory supplementary application into account."
+            ]
+        },
+        {
+            "tag": "admission_status",
+            "patterns": [
+                "Where can I check the status of my application?",
+                "How long after submitting an application can I expect a response from the university?",
+                "When will I receive information regarding my admission decision?",
+                "If I don't hear back, should I assume that I was not accepted?"
+            ],
+            "responses": [
+                "You can check your application status on your Mosaic student centre. This is the first place you will be able to see an offer. We will email you as well shortly after Mosaic is updated!"
+            ]
+        },
+        {
+            "tag": "admission_free_choice",
+            "patterns": [
+                "What is Free Choice? How do I know if I’ve received Free Choice?",
+                "Why did I receive Free Choice and what does it mean?",
+                "Is Free Choice available in every year? When does it become available again?",
+                "I have been offered Free Choice. What steps should I take next?"
+            ],
+            "responses": [
+                "If granted Free Choice, it will be indicated in your offer of admission (determined by your admission grades) or on Mosaic (based on your final grades). For Fall 2023 intake, the Free Choice cut-offs are 96% for Engineering 1 and 98% for iBioMed 1"
+            ]
+        },
+        {
+            "tag": "admissions_when",
+            "patterns": [
+                "When will I receive my offer of admission?",
+                "What is the expected timeframe for receiving my admission offer?",
+                "When can I anticipate receiving notification about my admission offer?",
+                "At what point should I expect to receive my admission offer?",
+                "Do you have an estimated timeline for when admission offers will be sent out?",
+                "Could you provide information on when I might receive my admission offer?"
+            ],
+            "responses": [
+                "Offers of admission for Computer Science, BTech, and Engineering are sent out in two rounds: the first round of offers will be sent out within the first two weeks of March, and the second round in early May. iBioMed offers are sent out in early May (one round only)."
+            ]
+        },
+        {
+            "tag": "obtaining enrollment letter",
+            "patterns": [
+                "How can I obtain a registration/enrolment or completion letter?",
+                "Getting a registration letter from McMaster",
+                "Procedure for obtaining enrollment letter",
+                "Requesting a completion letter from McMaster",
+                "Where can I get a registration/enrolment or completion letter?"
+            ],
+            "responses": [
+                "Students can log into the Mosaic Student Centre (at this link: https://epprd.mcmaster.ca/psp/prepprd/?cmd=login) to access this information. Please follow the steps below: 1) Log into Mosaic, select the Student Centre tile and then select Academics section 2) Use the drop-down menu in the Academics section (defaulted to “other academic…”) to select ‘Enrolment/Financial Letters’ and click the grey arrow 3) Select the Enrolment/Completion letter. Please ensure that your pop-up blocker is off so that the letter can be downloaded."
+            ]
+        },
+        {
+            "tag": "proof of enrolment for reimbursement",
+            "patterns": [
+                "I need proof of attendance/enrolment for reimbursement. Where can I find this?",
+                "Reimbursement proof of enrolment",
+                "Finding proof of attendance for reimbursement",
+                "Where to obtain enrolment proof for reimbursement?",
+                "Proof of enrolment for reimbursement process"
+            ],
+            "responses": [
+                "You can access a proof of enrolment letter through Mosaic (at this link: https://epprd.mcmaster.ca/psp/prepprd/?cmd=login). To do so, follow the instructions below: 1) Sign in to the Mosaic Student Center 2) In the Academics section, look for the drop-down menu labelled ‘other academic’ 3) From this menu, select Enrolment/Financial Letters and click the double arrows 4) Put in the corresponding information: a) Select Academic Career for this Letter: Select Continuing Education. b) Select Academic Term for this Letter: Select the term in which you took the class. c) Select which letter you would like to request: Select Enrolment/Completion letter. d) Select your delivery option: Select PDF or email. Please note: Your grade will appear once it has been uploaded by the administrative staff. Please allow up to two weeks for grades to be submitted once the class has finished."
+            ]
+        },
+        {
+            "tag": "enrolment deadlines",
+            "patterns": [
+                "What are the enrolment deadlines?",
+                "Enrolment deadline information",
+                "When are the deadlines for enrolment?",
+                "Enrolment period deadlines",
+                "Where can I find information about enrolment deadlines?"
+            ],
+            "responses": [
+                "We highly recommend students enrol well before the course start date for all courses to secure their spot and ensure timely access to the course and any required textbooks. Online registration deadlines are as follows: McMaster Continuing Education has implemented a late registration allowance for all course formats that run at least 11 weeks. We will permit enrolment up until 2 weeks after the course start date. Example: Course start date September 15, 2021; enrolment deadline September 29, 2021, 11:59 p.m. EST. Please note registering after the course start date may delay course access and does not permit exceptions to coursework due dates, late textbook purchases, or the refund policy. Some exceptions may apply. Late enrolment is not permitted in courses that are 10 weeks or less. Virtual Classroom Essentials workshops permit enrolment up until three days prior to the start date (unless otherwise indicated). Example: Start date September 14, enrolment deadline September 11, 11:59 p.m. EST. Deadlines vary for professional development courses and condensed/fast-track courses. Once enrolment closes, or courses are full, no further enrolments will be accepted. Please note enrolling after the course start date may delay course access and does not permit exceptions to coursework due dates, late textbook purchases, or the refund policy."
+            ]
+        },
+        {
+            "tag": "offer letter location",
+            "patterns": [
+                "Where is my offer letter?",
+                "Locating my admission offer letter",
+                "How to find my offer of admission?",
+                "Offer letter retrieval",
+                "Accessing admission offer information"
+            ],
+            "responses": [
+                "Your offer will appear on the applicant portal first followed by OUAC. Within 48 hours of receiving an offer, you should expect to see your offer letter. Aid and awards information will appear on the student portal as well."
+            ]
+        },
+        {
+            "tag": "admission deferral",
+            "patterns": [
+                "Can I defer my admission?",
+                "Deferring admission to McMaster",
+                "How to delay my admission start date?",
+                "Postponing admission at McMaster",
+                "Is admission deferral possible?"
+            ],
+            "responses": [
+                "Deferral requests may be submitted until September 1 and are reviewed on a case-by-case basis. LEARN MORE ABOUT DEFERRAL REQUESTS HERE: https://registrar.mcmaster.ca/admission-deferrals/"
+            ]
+        },
+        {
+            "tag": "redirecting funding",
+            "patterns": [
+                "Do I have to re-direct my OSAP funding to McMaster?",
+                "Send funding to McMaster",
+                "How do I redirect OSAP funding to McMaster?",
+                "What is the process for directing OSAP funds to McMaster?",
+                "Can I change the destination of my OSAP funding to McMaster?",
+                "OSAP McMaster redirect"
+            ],
+            "responses": [
+                "All OSAP funding will automatically be deposited into your McMaster student account to pay tuition and supplementary fees. Any funding left over will be deposited to your personal bank account. We recommend applying for OSAP by June 30 to ensure you meet the McMaster fall fee deadline. If OSAP funding does not cover the full cost of your tuition and fees, you are responsible for any outstanding balance on your student account"
+            ]
+        },
+        {
+            "tag": "OSAP insufficiency",
+            "patterns": [
+                "What if I didn't receive enough OSAP?",
+                "OSAP funding insufficient",
+                "Received less OSAP than expected",
+                "Not enough financial aid from OSAP",
+                "Insufficient OSAP funds"
+            ],
+            "responses": [
+                "A Student Services Professional is available to review your submitted OSAP application with you. No appointment is required. Please bring two pieces of government photo ID and your student ID card to discuss personal information."
+            ]
+        },
+        {
+            "tag": "OSAP course load",
+            "patterns": [
+                "Can I get OSAP funding for taking more than a 100% course load?",
+                "OSAP and course overload",
+                "Funding for exceeding 100% course load",
+                "Taking extra courses with OSAP",
+                "Course load impact on OSAP eligibility"
+            ],
+            "responses": [
+                "You must be enrolled in all courses by the add/drop date for that term for the ‘overload’ to be considered as part of the course load on your OSAP application. If you’re intending to complete an overload of courses and require extra funding, you can indicate a course load over 100% on your OSAP application. If you register in an overload after submitting your OSAP, please upload a Change Request form. Course load is calculated per term. Dropping courses after receiving funding can lead to academic progress restrictions and overpayments. If in doubt, drop in to speak with a Student Services Professional for advice."
+            ]
+        },
+        {
+            "tag": "OSAP confirmation of enrolment",
+            "patterns": [
+                "Why isn't my OSAP confirmation of enrolment completed?",
+                "OSAP enrolment confirmation delay",
+                "Trouble with OSAP confirmation",
+                "Incomplete OSAP enrolment verification",
+                "OSAP enrolment confirmation issues"
+            ],
+            "responses": [
+                "It may be too early – confirmations of enrolment can be completed within 15 days prior to the study period start date. It may be too late – confirmations of enrolment cannot be completed with less than five days remaining in the study period. Your OSAP application may be incomplete. Your enrolment in Mosaic may not equal the course load percentage you indicated on your OSAP application. You may not be enrolled for all terms indicated on your OSAP application."
+            ]
+        },
+        {
+            "tag": "OSAP reporting stipend",
+            "patterns": [
+                "I'm a med student. Do I have to report my OMA stipend to OSAP?",
+                "Reporting OMA stipend to OSAP",
+                "Med student stipend and OSAP reporting",
+                "Obligation to report stipend as med student",
+                "OSAP reporting requirements for med students"
+            ],
+            "responses": [
+                "To update OSAP of any stipend, please upload a completed Change Request Form directly to your OSAP application. You can find the form at this link https://registrar.mcmaster.ca/aid-awards/forms/."
+            ]
+        },
+        {
+            "tag": "OSAP application on exchange",
+            "patterns": [
+                "How do I apply for OSAP while on exchange?",
+                "Applying for OSAP during exchange",
+                "OSAP application process for exchange students",
+                "Exchange program and OSAP application",
+                "Getting financial aid while on exchange"
+            ],
+            "responses": [
+                "Apply for OSAP as you normally would, using McMaster University (not your exchange university) as your institution. Then, complete and submit an Exchange Program Information Sheet (which you can find at this link: https://registrar.mcmaster.ca/wp-content/uploads/2023/05/OSAPExchange-20234-1.pdf) to MacDrive (find instructions here: https://registrar.mcmaster.ca/services/macdrive/). Along with this form, you will need to submit proof of your study dates, as far in advance of your travel as possible."
+            ]
+        },
+        {
+            "tag": "OSAP document submission",
+            "patterns": [
+                "How can I submit documents to my OSAP portal for processing?",
+                "Submitting documents for OSAP processing",
+                "OSAP portal document submission",
+                "Document submission for OSAP approval",
+                "Steps to submit documents to OSAP portal"
+            ],
+            "responses": [
+                "We are continuing to process supporting documentation for OSAP applications uploaded directly to your OSAP portal. Please do not place anything in the drop box outside Gilmour Hall, 108 or mail/fax any documentation to our office. To upload documents to OSAP portal: 1. Log in to your OSAP account and go to “My Apps”. 2. Under “Submitted Applications”, go to “View Documents and Print/Upload”. 3. Go to each of the document’s names for a description of what you’re required to upload. 4. Complete, date and sign your document(s) in blue or black ink and take a clear scan or photo of the page(s). 5. Upload each document as a PDF that is less than 2MB in size."
+            ]
+        },
+        {
+            "tag": "OSAP aid and forms completion",
+            "patterns": [
+                "How can I get my government aid and out of province forms completed?",
+                "Completing government aid forms for OSAP",
+                "Out of province forms and OSAP completion",
+                "Aid and forms completion for OSAP",
+                "Getting assistance with OSAP forms"
+            ],
+            "responses": [
+                "Please submit a Service Request (this link: https://registrar.mcmaster.ca/services/service-requests/) with your student aid form attached. Allow three business days for student aid forms to be completed by McMaster Aid & Awards. Completed forms will be emailed directly to your home province if possible. If not, the completed form will be returned to you via your Service Request. Before uploading the form, please make sure that you have filled out all of the required parts, dated and signed it."
+            ]
+        },
+        {
+            "tag": "OSAP application term update",
+            "patterns": [
+                "My full-time OSAP application is for the Fall term only, but I will be continuing full-time in the Winter term (either in study or on co-op).\u00a0 How do I notify the Aid & Awards office?",
+                "Updating OSAP application for Winter term",
+                "Informing Aid & Awards office about term change",
+                "Changing OSAP application for Winter term",
+                "Notifying Aid & Awards office of term update"
+            ],
+            "responses": [
+                "You will need to: 1. Complete, sign and date an OSAP Extension Form, available here: https://registrar.mcmaster.ca/aid-awards/forms/. 2. Scan or save your complete form as a PDF file that is no larger than 2MB using the naming format Last Name, First Name-Student Number. 3. Upload your form to the OSAP Extension form MacDrive link (here: https://macdrive.mcmaster.ca/u/d/4740cc53ac0748519294/). Important notes: Any forms not in the correct naming format and/or larger than 2MB will be deleted without being processed. Our approx. processing time is 4-6 weeks.  Please monitor your OSAP application for updates. Avoid uploading the same form multiple times to avoid processing delays. If  the study period end date on your FT OSAP application is April or August, do not upload any forms to MacDrive.  Please upload your forms directly to your online OSAP application under “Print/Upload.”"
+            ]
+        },
+        {
+            "tag": "OSAP credit balance and withdrawal",
+            "patterns": [
+                "Will the credit balance on my McMaster student account be returned to the National Student Loans Service Centre to pay down my OSAP loan, since I withdrew from my winter term courses?",
+                "Credit balance and OSAP loan repayment",
+                "Withdrawing from courses and OSAP repayment",
+                "Returning credit balance to NSLSC for OSAP loan",
+                "Impact of course withdrawal on OSAP loan"
+            ],
+            "responses": [
+                "You may have received a credit on your McMaster student account from tuition/fees, housing, parking or the athletic & recreation activity fee. Any credit balance exceeding $100 is returned to NSLSC to pay down your OSAP loan overpayment when you withdraw from winter term courses and go into an OSAP overpayment status."
+            ]
+        },
+        {
+            "tag": "OSAP application for MBA",
+            "patterns": [
+                "I'm an MBA student. How do I apply for OSAP?",
+                "OSAP application process for MBA students",
+                "MBA student and OSAP application",
+                "Applying for OSAP as an MBA student",
+                "Steps to complete OSAP application for MBA"
+            ],
+            "responses": [
+                "MBA students are required to apply for OSAP on a term-by-term basis. You will need to apply for September to December online, then you can fill out an OSAP Extension Form (found here: https://registrar.mcmaster.ca/aid-awards/forms/) to extend your application from January to April and May to August."
+            ]
+        },
+        {
+            "tag": "OSAP funding for LOP courses",
+            "patterns": [
+                "Am I eligible to receive OSAP funding for Letter of Permission (LOP) courses taken through another educational institution while I am also taking courses at McMaster University at the same time?",
+                "OSAP eligibility for LOP courses",
+                "Taking LOP courses and OSAP funding",
+                "Receiving OSAP for LOP courses",
+                "Combining OSAP funding for LOP and McMaster courses"
+            ],
+            "responses": [
+                "LOP courses may possibly be eligible for OSAP funding in certain circumstances, as long as the following criteria are met: 1. You have a fully completed OSAP application with McMaster University. 2. The 2nd institution is approved for OSAP purposes. 3. You provide the Aid & Awards Office with proof of enrollment and course fees at the 2nd institution prior to OAP funding being released. 4. The start and end dates of the LOP courses are concurrent with McMaster’s term dates; i.e., September – December, January – April, May – August. *Online LOP courses through Athabasca University, University of New Brunswick, and Thompson River University (and possibly courses through other institutions) are NOT eligible for OSAP funding."
+            ]
+        }
+    ]
 }
