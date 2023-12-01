@@ -1,1 +1,50 @@
-
+{
+    "intents":[
+        {
+            "tag": "fees_who",
+            "patterns":[
+                "Who is exempt from international fees",
+                "What are the exceptions to international fees",
+                "Are there any exceptions for international fees"
+            ],
+            "responses": [
+                "International students who fall within one of the following categories may be eligible to pay domestic fees: \n-Dependents of Canadian Citizens/ First Nations Peoples \n-Dependents of Permanent Residents\n-A visitor with a work permit and dependent \n-A visitor with diplomatic status and dependents\n-Religious workers (work permit exempt) and dependents\n-Protected Persons and Dependents"
+            ]
+        },
+        {
+            "tag" : "fees_how",
+            "patterns":[
+                "How do I apply for an international fee exemption status?",
+                "Could you guide me through the application procedure for obtaining an international fee exemption status?",
+                "What steps do I need to take to request an exemption from international fees?",
+                "How can I initiate the application for an international fee exemption status?",
+                "What is the method or protocol for applying to be exempt from international fees?"
+            ],
+            "responses":[
+                "Undergraduate international students meeting specific criteria can apply for an international fee exemption by submitting required documentation via Mosaic Service Request before set deadlines, accessible through the Mosaic Student Center, whereas graduate students must channel their requests through the School of Graduate Studies."
+            ]
+        },
+        {
+            "tag": "fees_redo",
+            "patterns":[
+                "Do I need to renew my international fee exemption status every year?",
+                "Is it necessary to reapply annually for my international fee exception?",
+                "Must I repeat the process of obtaining an international fee exception each year?"
+            ],
+            "responses":[
+                "If your international fee exemption status changes during a study period, inform the Registrar's Office; failure to do so may require obtaining an extension before the next study period to avoid reverting to international fees in subsequent periods, with exceptions under certain uncontrollable circumstances, and for queries, contact Student Services."
+            ]
+        },
+        {
+            "tag" : "fees_deadline",
+            "patterns":[
+                "What are the deadlines for International Fee Exemptions?",
+                "When does the deadline for submitting a request for an international fee exception occur?",
+                "At what timeframe should I submit my request for an international fee exception?"
+            ],
+            "responses":[
+                "Study Period : Deadline\nFall : October 27\nWinter : January 27\nSpring : June 20\nSummer : July 18\nNotes:\nA tuition adjustment will take place in the study period that an international fee exemption has been approved. Retroactive fee changes for previous study periods will not be granted.\nExceptions to deadlines are not permitted."
+            ]
+        }
+    ]
+}
